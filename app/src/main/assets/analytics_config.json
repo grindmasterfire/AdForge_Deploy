@@ -1,0 +1,19 @@
+﻿{
+  "trackEvents": [
+    "raffle_entry",
+    "offer_completed",
+    "crew_invite",
+    "badge_unlocked",
+    "login_streak"
+  ],
+  "priorityEvents": {
+    "payout_request": "high",
+    "app_crash": "critical",
+    "raffle_win": "high"
+  },
+  "retentionMetrics": [
+    "daily_active_users",
+    "session_length",
+    "coins_earned_per_user"
+  ]
+}

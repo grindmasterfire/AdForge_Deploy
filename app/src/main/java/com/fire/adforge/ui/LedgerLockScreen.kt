@@ -1,0 +1,45 @@
+﻿import java.text.SimpleDateFormat
+import java.util.Locale
+import android.util.Log
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+package com.fire.adforge.ui
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.fire.adforge.viewmodel.LedgerLockViewModel
+
+@Composable
+fun LedgerLockScreen(vm: LedgerLockViewModel = viewModel()) {
+    var status by remember { mutableStateOf<String?>(null) }
+    var raffleId by remember { mutableStateOf("RAFFLE123") }
+
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("🔒 Lock Raffle Ledger", style = MaterialTheme.typography.headlineMedium)
+        Spacer(Modifier.height(8.dp))
+
+        OutlinedTextField(
+            value = raffleId,
+            onValueChange = { raffleId = it },
+            label = { Text("Raffle ID") }
+        )
+
+        Spacer(Modifier.height(12.dp))
+
+        Button(onClick = {
+            vm.lockRaffle(raffleId) { success ->
+                status = if (success) "✅ Archived Successfully" else "❌ Archive Failed"
+            }
+        }) {
+            Text("Archive Raffle Ledger")
+        }
+
+        Spacer(Modifier.height(12.dp))
+        status?.let { Text(it) }
+    }
+}
+

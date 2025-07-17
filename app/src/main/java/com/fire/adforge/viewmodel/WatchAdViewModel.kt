@@ -1,0 +1,60 @@
+﻿import java.text.SimpleDateFormat
+import java.util.Locale
+import android.util.Log
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+package com.fire.adforge.viewmodel
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.google.firebase.database.FirebaseDatabase
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.launch
+
+class WatchAdViewModel : ViewModel() {
+    private val _adPlaying = MutableStateFlow(false)
+    val adPlaying: StateFlow<Boolean> = _adPlaying
+
+    private val db = FirebaseDatabase.getInstance()
+
+    fun startAdLoop(raffleId: String, userId: String) {
+        _adPlaying.value = true
+
+        viewModelScope.launch {
+            while (_adPlaying.value) {
+                playAd()
+                delay(1000) // Simulated ad duration
+
+                recordLiveness(raffleId, userId)
+                rewardCoins(userId)
+
+                delay(2000) // Time between ads
+            }
+        }
+    }
+
+    fun stopAdLoop() {
+        _adPlaying.value = false
+    }
+
+    private fun playAd() {
+        // Simulated ad play
+    }
+
+    private fun rewardCoins(userId: String) {
+        val // // // // coinRef = db.getReference("coinLedger/\")
+        // // // // coinRef.setValue(System.currentTimeMillis()) // Stub: Replace with coin logic
+    }
+
+    private fun recordLiveness(raffleId: String, userId: String) {
+        val // // // // sessionRef = db.getReference("raffleSession//\")
+        // // // // sessionRef.setValue(System.currentTimeMillis())
+    }
+}
+
+
+
+
+

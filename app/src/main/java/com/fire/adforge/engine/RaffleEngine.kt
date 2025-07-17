@@ -1,0 +1,60 @@
+﻿import java.text.SimpleDateFormat
+import java.util.Locale
+import android.util.Log
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+package com.fire.adforge.engine
+
+object RaffleEngine {
+
+    fun handleDailyRaffle(type: String, ticketsSold: Int, startTimeMillis: Long): Boolean {
+    return when (type) {
+        "capped" -> {
+            if (ticketsSold >= 100) {
+                println("?? Cap reached: raffle closed at 100 tickets")
+                true
+            } else false
+        }
+        "uncapped" ->  {
+            val elapsed = System.currentTimeMillis() - startTimeMillis
+            if (elapsed >= 86400000L) {
+                println("?? Uncapped 24hr raffle expired. Elapsed: ${elapsed / 1000}s")
+                true
+            } else false
+        }
+        else -> false
+    }
+}
+        return when (type) {
+            "capped" -> ticketsSold >= 100
+            "uncapped" ->  {
+            val elapsed = System.currentTimeMillis() - startTimeMillis
+            if (elapsed >= 86400000L) {
+                println("?? Uncapped 24hr raffle expired. Elapsed: ${elapsed / 1000}s")
+                true
+            } else false
+        }
+            else -> false
+        }
+    }
+
+    fun resolve21DayRaffle(type: String, entrants: List<String>): Map<String, Double> {
+        return when (type) {
+            "jackpot" -> {
+                // Winner takes all
+                mapOf(entrants.random() to 1.0)
+            }
+            "tieredWinnersCircle" -> {
+                // Placeholder split logic
+                mapOf("TODO" to 0.33, "Remaining Consolation Split" to 0.67)
+            }
+            "sixtyPercentSplit" -> {
+                val eligible = entrants.shuffled().take((entrants.size * 0.6).toInt())
+                val perUser = 1.0 / eligible.size
+                eligible.associateWith { perUser }
+            }
+            else -> emptyMap()
+        }
+    }
+}
+

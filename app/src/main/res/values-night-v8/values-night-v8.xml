@@ -1,0 +1,7 @@
+﻿<resources>
+    <style name="NightTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_main</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/secondary_main</item>
+    </style>
+</resources>

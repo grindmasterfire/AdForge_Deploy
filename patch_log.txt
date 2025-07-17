@@ -1,0 +1,3 @@
+Patch applied at 2025-07-16 20:24:47
+Target: app/build.gradle.kts
+Fix: Gradle dependency scope correction

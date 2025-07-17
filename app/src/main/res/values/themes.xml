@@ -1,0 +1,3 @@
+﻿<resources>
+    <style name="Theme.AdForge" parent="android:Theme.Material.Light" />
+</resources>

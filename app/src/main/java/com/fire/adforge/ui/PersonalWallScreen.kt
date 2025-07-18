@@ -1,20 +1,20 @@
 ﻿package com.fire.adforge.ui
 
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.unit.dp
-import com.fire.adforge.viewmodel.CoinStateViewModel
-import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.compose.foundation.Image`nimport androidx.navigation.NavController
+import androidx.compose.foundation.layout.*`nimport androidx.navigation.NavController
+import androidx.compose.foundation.shape.CircleShape`nimport androidx.navigation.NavController
+import androidx.compose.material3.*`nimport androidx.navigation.NavController
+import androidx.compose.runtime.*`nimport androidx.navigation.NavController
+import androidx.compose.ui.Alignment`nimport androidx.navigation.NavController
+import androidx.compose.ui.Modifier`nimport androidx.navigation.NavController
+import androidx.compose.ui.draw.clip`nimport androidx.navigation.NavController
+import androidx.compose.ui.res.painterResource`nimport androidx.navigation.NavController
+import androidx.compose.ui.unit.dp`nimport androidx.navigation.NavController
+import com.fire.adforge.viewmodel.CoinStateViewModel`nimport androidx.navigation.NavController
+import androidx.lifecycle.viewmodel.compose.viewModel`nimport androidx.navigation.NavController
 
 @Composable
-fun PersonalWallScreen() {
+fun PersonalWallScreen(navController: NavController) {
     val coinViewModel: CoinStateViewModel = viewModel()
     val coinBalance = coinViewModel.coins.collectAsState().value
 
@@ -40,7 +40,7 @@ fun PersonalWallScreen() {
         Text("Balance:  coins", style = MaterialTheme.typography.titleLarge)
 
         Button(onClick = { /* TODO: Edit Avatar or Crew */ }) {
-            Text("Customize Wall")
+            Text("📬 Open Mailbox")
         }
     }
 }

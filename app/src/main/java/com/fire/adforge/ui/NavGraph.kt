@@ -1,13 +1,13 @@
 ﻿package com.fire.adforge.ui
 
-import androidx.compose.runtime.Composable`nimport com.fire.adforge.ui.MailboxScreen`nimport com.fire.adforge.ui.CrewJoinScreen
-import androidx.navigation.NavHostController`nimport com.fire.adforge.ui.MailboxScreen`nimport com.fire.adforge.ui.CrewJoinScreen
-import androidx.navigation.compose.NavHost`nimport com.fire.adforge.ui.MailboxScreen`nimport com.fire.adforge.ui.CrewJoinScreen
-import androidx.navigation.compose.composable`nimport com.fire.adforge.ui.MailboxScreen`nimport com.fire.adforge.ui.CrewJoinScreen
+import androidx.compose.runtime.Composable`nimport com.fire.adforge.ui.MailboxScreen`nimport com.fire.adforge.ui.CrewJoinScreen`nimport com.fire.adforge.ui.CrewLeaderboardScreen
+import androidx.navigation.NavHostController`nimport com.fire.adforge.ui.MailboxScreen`nimport com.fire.adforge.ui.CrewJoinScreen`nimport com.fire.adforge.ui.CrewLeaderboardScreen
+import androidx.navigation.compose.NavHost`nimport com.fire.adforge.ui.MailboxScreen`nimport com.fire.adforge.ui.CrewJoinScreen`nimport com.fire.adforge.ui.CrewLeaderboardScreen
+import androidx.navigation.compose.composable`nimport com.fire.adforge.ui.MailboxScreen`nimport com.fire.adforge.ui.CrewJoinScreen`nimport com.fire.adforge.ui.CrewLeaderboardScreen
 
 @Composable
 fun NavGraph(navController: NavHostController) {
-    NavHost(navController = navController, startDestination = "main") {`n composable("mailbox") {`n composable("crew") { CrewJoinScreen() } MailboxScreen() }
+    NavHost(navController = navController, startDestination = "main") {`n composable("mailbox") {`n composable("crew") {`n composable("crew_leaderboard") { CrewLeaderboardScreen() } CrewJoinScreen() } MailboxScreen() }
         composable("main") { MainScreen(navController) }
         composable("wallet") { WalletScreen() }
         composable("wall") { PersonalWallScreen() }

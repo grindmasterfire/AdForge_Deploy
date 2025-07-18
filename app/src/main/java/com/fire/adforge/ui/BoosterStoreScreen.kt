@@ -23,7 +23,7 @@ fun BoosterStoreScreen() {
         )
     }
 
-    Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
+    Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {`n    val navController = rememberNavController()
         Text("⚡ Milestone Boosters", style = MaterialTheme.typography.headlineLarge)
         Spacer(Modifier.height(16.dp))
         Text("Balance:  coins", style = MaterialTheme.typography.bodyLarge)

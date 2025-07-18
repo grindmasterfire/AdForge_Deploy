@@ -1,35 +1,37 @@
 ﻿package com.fire.adforge.ui
 
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.fire.adforge.viewmodel.CrewLeaderboardViewModel
-import java.text.SimpleDateFormat
-import java.util.*
+import com.fire.adforge.backend.CrewLeaderboardFetcher
+import com.fire.adforge.model.CrewLeaderboard
+import kotlinx.coroutines.*
 
 @Composable
-fun CrewLeaderboardScreen(vm: CrewLeaderboardViewModel = viewModel()) {
-    val scores = vm.scores.collectAsState()
-    val formatter = remember { SimpleDateFormat("MMM dd, yyyy - HH:mm", Locale.getDefault()) }
+fun CrewLeaderboardScreen() {
+    var crews by remember { mutableStateOf<List<CrewLeaderboard>>(emptyList()) }
 
-    Column(modifier = Modifier.padding(16.dp)) {
-        Text("🏆 Crew Raffle Leaderboard", style = MaterialTheme.typography.headlineMedium)
+    LaunchedEffect(Unit) {
+        crews = withContext(Dispatchers.IO) {
+            CrewLeaderboardFetcher.getLeaderboard()
+        }
+    }
 
-        scores.value.forEachIndexed { index, score ->
-            Card(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(vertical = 6.dp)
-            ) {
-                Column(modifier = Modifier.padding(12.dp)) {
-                    Text("👑 Rank: ")
-                    Text("🪪 Crew ID: ")
-                    Text("💰 Coins: ")
-                    Text("👥 Active Users: ")
-                    Text("🕒 Last Updated: ")
+    Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
+        Text("🏆 Crew Leaderboard", style = MaterialTheme.typography.headlineLarge)
+        Spacer(Modifier.height(16.dp))
+        LazyColumn(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            items(crews) { crew ->
+                Card(modifier = Modifier.fillMaxWidth()) {
+                    Column(modifier = Modifier.padding(16.dp)) {
+                        Text("# - ", style = MaterialTheme.typography.titleLarge)
+                        Text("Members:  | Multiplier: x", style = MaterialTheme.typography.bodyMedium)
+                        Text("Earnings:  coins", style = MaterialTheme.typography.bodyMedium)
+                    }
                 }
             }
         }

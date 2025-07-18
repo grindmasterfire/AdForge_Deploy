@@ -1,13 +1,13 @@
 ﻿package com.fire.adforge.ui
 
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.unit.dp
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.firestore.FirebaseFirestore
+import androidx.compose.foundation.layout.*`nimport com.fire.adforge.backend.CrewManager
+import androidx.compose.foundation.text.BasicTextField`nimport com.fire.adforge.backend.CrewManager
+import androidx.compose.material3.*`nimport com.fire.adforge.backend.CrewManager
+import androidx.compose.runtime.*`nimport com.fire.adforge.backend.CrewManager
+import androidx.compose.ui.Modifier`nimport com.fire.adforge.backend.CrewManager
+import androidx.compose.ui.unit.dp`nimport com.fire.adforge.backend.CrewManager
+import com.google.firebase.auth.FirebaseAuth`nimport com.fire.adforge.backend.CrewManager
+import com.google.firebase.firestore.FirebaseFirestore`nimport com.fire.adforge.backend.CrewManager
 
 @Composable
 fun CrewJoinScreen() {

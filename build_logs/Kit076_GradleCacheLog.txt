@@ -1,0 +1,1 @@
+﻿Kit 76: Gradle caches, daemons, and native folders purged at 07/19/2025 16:01:07

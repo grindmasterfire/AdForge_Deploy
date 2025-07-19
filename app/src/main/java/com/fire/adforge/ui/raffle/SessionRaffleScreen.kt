@@ -1,0 +1,62 @@
+﻿package com.fire.adforge.ui.raffle
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.fire.adforge.viewmodel.SessionRaffleViewModel
+
+@Composable
+fun SessionRaffleScreen(
+    sessionId: String,
+    userId: String,
+    coinBalance: Int,
+    onComplete: () -> Unit
+) {
+    val viewModel: SessionRaffleViewModel = viewModel()
+    var ticketCount by remember { mutableStateOf(1) }
+    var status by remember { mutableStateOf<String?>(null) }
+
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Join Raffle: Session ", style = MaterialTheme.typography.h6)
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text("You have  coins.")
+        Text("Tickets cost 10 coins each.")
+
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Button(onClick = { if (ticketCount > 1) ticketCount-- }) { Text("-") }
+            Text("   tickets  ")
+            Button(onClick = { if (ticketCount < 10) ticketCount++ }) { Text("+") }
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        Button(
+            onClick = {
+                if (ticketCount * 10 <= coinBalance) {
+                    viewModel.joinRaffle(sessionId, userId, ticketCount, coinBalance,
+                        onSuccess = {
+                            status = "Entry submitted!"
+                            onComplete()
+                        },
+                        onFailure = {
+                            status = "Failed: {it.localizedMessage}"
+                        }
+                    )
+                } else {
+                    status = "Not enough coins"
+                }
+            }
+        ) {
+            Text("Join Raffle")
+        }
+
+        status?.let {
+            Spacer(modifier = Modifier.height(8.dp))
+            Text(it)
+        }
+    }
+}

@@ -1,5 +1,5 @@
 ﻿plugins {
-    id("com.android.application") version "8.1.0" version "8.1.0"
+    id("com.android.application") version "8.1.0"
     id("org.jetbrains.kotlin.android") version "1.9.0"
 }
 
@@ -15,13 +15,23 @@ android {
         versionName = "1.0"
     }
 
-    buildTypes {\n        release {\n            signingConfig signingConfigs.release
+    signingConfigs {
+        create("release") {
+            storeFile = file("keystore.jks")
+            storePassword = "your-store-password"
+            keyAlias = "adforge-key"
+            keyPassword = "your-key-password"
+        }
+    }
+
+    buildTypes {
         release {
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("release")
         }
     }
 
@@ -34,7 +44,3 @@ android {
         jvmTarget = "17"
     }
 }
-
-
-
-

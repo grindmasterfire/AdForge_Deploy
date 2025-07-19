@@ -1,0 +1,1 @@
+﻿Kit 84: build.gradle.kts hard reset to valid Kotlin DSL with signer and buildTypes

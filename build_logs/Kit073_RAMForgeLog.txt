@@ -1,1 +1,0 @@
-﻿Kit 73: Virtual memory increased to 819216384 MB range at C:\pagefile.sys

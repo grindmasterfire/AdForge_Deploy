@@ -1,1 +1,0 @@
-﻿Kit 74: CPU priority boosted for java, gradlew, and Android Studio. Power mode set to Max Performance.

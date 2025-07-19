@@ -15,7 +15,7 @@ android {
         versionName = "1.0"
     }
 
-    buildTypes {
+    buildTypes {\n        release {\n            signingConfig signingConfigs.release
         release {
             isMinifyEnabled = false
             proguardFiles(

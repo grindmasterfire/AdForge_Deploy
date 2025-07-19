@@ -43,3 +43,5 @@ class DailyRewardViewModel : ViewModel() {
             }
     }
 }
+
+// ✅ Kit225: Daily reward lifecycle sealed — no further edits pending

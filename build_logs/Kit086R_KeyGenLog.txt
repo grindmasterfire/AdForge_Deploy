@@ -1,1 +1,0 @@
-﻿Kit 86-R: Local keystore.jks generated for alias 'adforge-key'

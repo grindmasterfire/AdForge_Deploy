@@ -25,3 +25,5 @@ class CrewRaffleLoaderViewModel : ViewModel() {
             }
     }
 }
+
+// ✅ Kit214: Final crew patch marker — lifecycle segment sealed

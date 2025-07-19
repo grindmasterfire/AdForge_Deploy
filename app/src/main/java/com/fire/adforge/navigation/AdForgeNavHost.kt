@@ -1,16 +1,16 @@
-﻿import java.text.SimpleDateFormat`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
-import java.util.Locale`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
-import android.util.Log`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
-import androidx.compose.material3.MaterialTheme`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
-import androidx.compose.material3.Text`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
+﻿import java.text.SimpleDateFormat`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
+import java.util.Locale`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
+import android.util.Log`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
+import androidx.compose.material3.MaterialTheme`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
+import androidx.compose.material3.Text`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
 package com.fire.adforge.navigation
 
-import androidx.compose.runtime.Composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
-import androidx.navigation.compose.NavHost`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
-import androidx.navigation.compose.composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
-import androidx.navigation.NavHostController`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
-import com.fire.adforge.ui.*`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
-import com.fire.adforge.ui.screens.MainScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen
+import androidx.compose.runtime.Composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
+import androidx.navigation.compose.NavHost`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
+import androidx.navigation.compose.composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
+import androidx.navigation.NavHostController`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
+import com.fire.adforge.ui.*`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
+import com.fire.adforge.ui.screens.MainScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen
 
 @Composable
 fun AdForgeNavHost(navController: NavHostController) {
@@ -27,7 +27,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -37,7 +42,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -53,7 +63,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -63,7 +78,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -79,7 +99,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -89,7 +114,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -105,7 +135,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -115,7 +150,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -131,7 +171,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -141,7 +186,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -157,7 +207,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -167,7 +222,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -183,7 +243,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -193,7 +258,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -209,7 +279,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -219,7 +294,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -235,7 +315,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -245,7 +330,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -261,7 +351,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 
@@ -271,7 +366,12 @@ composable("raffleEntries/{sessionId}") { backStackEntry ->
 
 composable("crewRaffles") {
     CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
 }
+
 
 
 

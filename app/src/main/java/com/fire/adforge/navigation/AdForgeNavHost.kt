@@ -56,7 +56,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -103,7 +122,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -156,7 +194,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -203,7 +260,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -256,7 +332,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -303,7 +398,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -356,7 +470,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -403,7 +536,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -456,7 +608,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -503,7 +674,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -556,7 +746,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -603,7 +812,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -656,7 +884,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -703,7 +950,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -756,7 +1022,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -803,7 +1088,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -856,7 +1160,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -903,7 +1226,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -956,7 +1298,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 
@@ -1003,7 +1364,26 @@ composable("payoutHistory/{userId}") { backStackEntry ->
 composable("dailyReward/{userId}") { backStackEntry ->
     val userId = backStackEntry.arguments?.getString("userId") ?: ""
     DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
 }
+
 
 
 

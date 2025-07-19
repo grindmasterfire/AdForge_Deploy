@@ -1,16 +1,16 @@
-﻿import java.text.SimpleDateFormat`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
-import java.util.Locale`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
-import android.util.Log`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
-import androidx.compose.material3.MaterialTheme`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
-import androidx.compose.material3.Text`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
+﻿import java.text.SimpleDateFormat`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
+import java.util.Locale`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
+import android.util.Log`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
+import androidx.compose.material3.MaterialTheme`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
+import androidx.compose.material3.Text`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
 package com.fire.adforge.navigation
 
-import androidx.compose.runtime.Composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
-import androidx.navigation.compose.NavHost`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
-import androidx.navigation.compose.composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
-import androidx.navigation.NavHostController`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
-import com.fire.adforge.ui.*`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
-import com.fire.adforge.ui.screens.MainScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen
+import androidx.compose.runtime.Composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
+import androidx.navigation.compose.NavHost`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
+import androidx.navigation.compose.composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
+import androidx.navigation.NavHostController`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
+import com.fire.adforge.ui.*`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
+import com.fire.adforge.ui.screens.MainScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen
 
 @Composable
 fun AdForgeNavHost(navController: NavHostController) {
@@ -48,7 +48,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -85,7 +90,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -128,7 +138,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -165,7 +180,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -208,7 +228,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -245,7 +270,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -288,7 +318,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -325,7 +360,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -368,7 +408,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -405,7 +450,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -448,7 +498,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -485,7 +540,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -528,7 +588,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -565,7 +630,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -608,7 +678,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -645,7 +720,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -688,7 +768,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -725,7 +810,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -768,7 +858,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 
@@ -805,7 +900,12 @@ composable("requestPayout/{userId}") { backStackEntry ->
 
 composable("payoutAudit") {
     PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
 }
+
 
 
 

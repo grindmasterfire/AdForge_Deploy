@@ -1,0 +1,101 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fire.adforge.app-merged_res-4:/values-night-v8_values-night-v8.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\leona\\VS_Projects\\AdForge_Android3\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "2,1,3,5,4,6",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "65,17,113,211,161,261",
+                        "endColumns": "46,46,46,48,48,48",
+                        "endOffsets": "107,59,155,255,205,305"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,102,149,196,245,294",
+                        "endColumns": "46,46,46,48,48,48",
+                        "endOffsets": "97,144,191,240,289,338"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.fire.adforge.app-merged_res-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\leona\\VS_Projects\\AdForge_Android3\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "1,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "16,61,106",
+                        "endColumns": "44,44,42",
+                        "endOffsets": "56,101,144"
+                    },
+                    "to": {
+                        "startLines": "13,14,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "599,644,689",
+                        "endColumns": "44,44,42",
+                        "endOffsets": "639,684,727"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\leona\\VS_Projects\\AdForge_Android3\\app\\src\\main\\res\\values\\attrs.xml",
+                    "from": {
+                        "startLines": "1,10,11,4,7,9,2,3,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "17,478,524,171,328,428,68,116,221,271,380",
+                        "endColumns": "49,44,46,48,50,48,46,53,48,55,46",
+                        "endOffsets": "62,518,566,215,374,472,110,165,265,322,422"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,105,150,197,246,297,346,393,447,496,552",
+                        "endColumns": "49,44,46,48,50,48,46,53,48,55,46",
+                        "endOffsets": "100,145,192,241,292,341,388,442,491,547,594"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\leona\\VS_Projects\\AdForge_Android3\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "328"
+                    },
+                    "to": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "777",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1089"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\leona\\VS_Projects\\AdForge_Android3\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "44",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endColumns": "44",
+                        "endOffsets": "772"
+                    }
+                }
+            ]
+        }
+    ]
+}

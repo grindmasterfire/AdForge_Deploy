@@ -1,6 +1,6 @@
 ﻿plugins {
-    id("com.android.application")
-    kotlin("android")
+    id("com.android.application") version "8.1.0" version "8.1.0"
+    id("org.jetbrains.kotlin.android") version "1.9.0"
 }
 
 android {
@@ -24,16 +24,16 @@ android {
             )
         }
     }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
 }
 
-dependencies {
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
-    implementation("androidx.activity:activity-compose:1.7.2")
-    implementation("androidx.compose.ui:ui:1.5.0")
-    implementation("androidx.compose.material3:material3:1.1.2")
-    implementation("com.google.firebase:firebase-firestore-ktx:24.9.0")
-    implementation("com.google.firebase:firebase-auth-ktx:22.3.0")
-    implementation("com.google.firebase:firebase-analytics-ktx:21.5.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
-}
+
+

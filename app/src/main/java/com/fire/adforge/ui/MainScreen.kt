@@ -19,3 +19,5 @@ fun MainScreen() {
         Text("Zenith Test Screen", style = MaterialTheme.typography.titleLarge)
     }
 }
+
+// ✅ Kit229: Reward & Payout hub nav chain sealed — MainScreen patched

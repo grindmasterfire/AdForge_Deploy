@@ -14,6 +14,9 @@ fun AppNavGraph(navController: NavHostController, startDestination: String = "ho
         composable("cipherbot_wall") {
             com.fire.adforge.ui.special.CipherBotWallScreen()
         }
+        composable("cipherbot_wall") {
+            com.fire.adforge.ui.special.CipherBotWallScreen()
+        }
         composable("personal_wall") {
             PersonalWallScreen(userId = "currentUserId") // replace with real user ID
         }

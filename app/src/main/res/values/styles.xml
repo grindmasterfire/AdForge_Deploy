@@ -1,8 +1,7 @@
 ﻿<resources>
-    <style name="Theme.AdForge" parent="android:Theme.Material.Light">
-        <item name="android:colorPrimary">#6200EE</item>
-        <item name="android:colorPrimaryDark">#3700B3</item>
-        <item name="android:colorAccent">#03DAC5</item>
-        <item name="android:statusBarColor">#3700B3</item>
+    <style name="Theme.AdForge.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#121212</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.AdForge</item>
     </style>
 </resources>

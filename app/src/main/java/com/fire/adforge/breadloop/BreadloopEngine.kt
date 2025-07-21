@@ -84,3 +84,14 @@ object BreadloopEngine {
     }
 }
 
+
+fun determineBreadloopPool(timeSeconds: Int): Int {
+    return when (timeSeconds) {
+        in 120..144 -> 1
+        in 145..179 -> 2
+        in 180..234 -> 3
+        in 235..299 -> 4
+        in 300..420 -> 5
+        else -> 5
+    }
+}

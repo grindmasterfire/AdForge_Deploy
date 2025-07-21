@@ -32,5 +32,8 @@ fun SettingsScreen(navController: NavController) {
             onClick = { navController.navigate("cipherbot_wall") },
             modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)
         ) { Text(" Visit CipherBot") }
+        Spacer(modifier = Modifier.height(20.dp))
+        Text("Build: " + BuildMeta.BUILD_VERSION)
+        Text("Sig: " + BuildMeta.BUILD_SIGNATURE)
     }
 }

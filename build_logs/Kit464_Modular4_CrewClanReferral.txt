@@ -1,0 +1,75 @@
+﻿=== ADFORGE MODULAR 4 REPORT ===
+[CREW / CLAN / REFERRAL / MILESTONE SYSTEMS]
+
+ MODULE FUNCTION:
+This modular governs the users in-app social infrastructure (crew/clan federation), referral earnings, and milestone coin-spending discounts. It enhances earning, rewards, and user collaboration.
+
+---
+
+ PRIOR COMPONENTS (Already Deployed):
+- Referral.kt (4-tier structure)
+- BoosterEngine.kt (discount logic)
+- Crew.kt + CrewViewModel.kt (initial logic)
+- Clan.kt + ClanManager.kt (federation logic)
+
+---
+
+ NEWLY DEPLOYED IN THIS MODULAR:
+
+1. Kit456_CrewSystem_Impl.kt
+   - CrewViewModel.kt: Firebase grind tracking
+   - Crew.kt: Data class for crews
+   - Multiplier logic for crew contribution bonuses
+
+2. Kit457_ClanSystem_Impl.kt
+   - ClanManager.kt: Create, break, and manage clans
+   - Auto-break when crews drop below 4
+   - Enforces 59 crew limit per clan
+
+3. Kit458_ReferralAndMilestone_Impl.kt
+   - ReferralEngine.kt: 4-tier payout system (10/5/3/1%)
+   - Payouts treated as platform costs (not from Fire's cut)
+   - BoosterEngine.kt: Earned coins-only discount mechanic
+
+4. Kit459_ReferralUIPanel.ps1
+   - ReferralScreen.kt: UI to show referral code and earnings
+   - ReferralViewModel.kt: Loads referralCode and total earnings
+
+5. Kit460_MilestoneBoosterUI.ps1
+   - BoosterScreen.kt: Slider + Apply Booster button
+   - BoosterViewModel.kt: Coin eligibility and discount check
+
+6. Kit461_CrewDashboardUI.ps1
+   - CrewDashboard.kt: UI for grind total, multiplier, leave crew
+
+7. Kit462_ClanViewUI.ps1
+   - ClanViewScreen.kt: View clan name, crews, and disband warning
+
+8. Kit463_NavGraphReroute.ps1
+   - Navigation bindings to all UI panels
+
+---
+
+ OUTCOME OF THIS MODULAR:
+
+- Users can now:
+   Join and leave crews
+   Track crew progress and multiplier
+   Participate in clans with disband rules
+   Share referral codes and earn tiered bonuses
+   Spend earned coins on milestone boosters with discounts
+   View all of the above inside the app (live UI)
+
+---
+
+ COMPLIANCE:
+All logic conforms to Commander Cipher Codex v17-A:
+- Crew multiplier
+- Referral costs come from platform revenue, not Fire's cut
+- Milestone discounts are coded as costs incurred
+- All screens visible and user-usable
+
+---
+
+ FILE GENERATED: Kit464_Modular4_CrewClanReferral.txt
+Place this into memory for permanent documentation.

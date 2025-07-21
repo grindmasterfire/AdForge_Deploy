@@ -1,55 +1,48 @@
-﻿import java.text.SimpleDateFormat
-import java.util.Locale
-import android.util.Log
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
-package com.fire.adforge.viewmodel
+﻿package com.fire.adforge.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 
 class BoosterViewModel : ViewModel() {
+
     private val db = FirebaseFirestore.getInstance()
 
-    fun applyBoosterDiscount(userId: String, originalCost: Int) {
-        CoroutineScope(Dispatchers.IO).launch {
-            val discount = (originalCost * 0.10).toInt()
-            val finalCost = originalCost - discount
+    private val _earnedCoins = MutableStateFlow(0)
+    val earnedCoins: StateFlow<Int> = _earnedCoins
 
-            val boosterTransaction = hashMapOf(
-            val userDoc = db.collection("users").document(userId).get().await()
-            val crewTag = userDoc.getString("crewTag") ?: return@launch
-            val usersInCrew = db.collection("users").whereEqualTo("crewTag", crewTag).get().await()
-            val topUser = usersInCrew.documents.maxByOrNull { it.getLong("coins") ?: 0L }
-            if (topUser != null && topUser.id == userId) {
-                PersonalWallViewModel().unlockBadge(userId, "alphaEarn")
-            }
-                "userId" to userId,
-                "originalCost" to originalCost,
-                "finalCost" to finalCost,
-                "timestamp" to System.currentTimeMillis()
-            )
+    private val _selectedDiscount = MutableStateFlow(5)
+    val selectedDiscount: StateFlow<Int> = _selectedDiscount
 
-            db.collection("users")
-                .document(userId)
-                .collection("boosters")
-                .add(boosterTransaction)
+    init {
+        fetchEarnedCoins("user_test_id") //  Replace with actual auth UID
+    }
 
-            val log = hashMapOf(
-                "type" to "BoosterDiscount",
-                "userId" to userId,
-                "deltaCoins" to discount,
-                "timestamp" to System.currentTimeMillis()
-            )
-
-            db.collection("ledger")
-                .document("retainedProfits")
-                .collection("logs")
-                .add(log)
+    private fun fetchEarnedCoins(userId: String) {
+        db.collection("wallets").document(userId).get().addOnSuccessListener { doc ->
+            val coins = doc.getLong("earnedCoins")?.toInt() ?: 0
+            _earnedCoins.value = coins
         }
     }
-}
 
+    fun updateDiscount(percent: Int) {
+        if (percent in 5..10) {
+            _selectedDiscount.value = percent
+        }
+    }
+
+    fun applyBooster(): Boolean {
+        val cost = 100 //  You can calculate dynamic cost later
+        if (_earnedCoins.value < cost) return false
+
+        // Deduct coins in Firebase
+        db.collection("wallets").document("user_test_id").update(
+            mapOf(
+                "earnedCoins" to com.google.firebase.firestore.FieldValue.increment(-cost.toLong()),
+                "activeBooster" to _selectedDiscount.value
+            )
+        )
+        return true
+    }
+}

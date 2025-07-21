@@ -2,56 +2,68 @@
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.google.firebase.firestore.FirebaseFirestore
+import com.fire.adforge.model.Crew
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
-// Data class for summary stats block
-data class CrewStats(
-    val totalCoins: Int = 0,
-    val totalRaffleEntries: Int = 0,
-    val grindStreak: Int = 0,
-    val rank: Int = 0
-)
-
-// Data class for each top contributor
-data class CrewMember(
-    val name: String = "",
-    val coins: Int = 0
-)
-
 class CrewViewModel : ViewModel() {
-    private val _crewStats = MutableStateFlow(CrewStats())
-    val crewStats: StateFlow<CrewStats> = _crewStats
 
-    private val _topContributors = MutableStateFlow<List<CrewMember>>(emptyList())
-    val topContributors: StateFlow<List<CrewMember>> = _topContributors
+    private val db = FirebaseFirestore.getInstance()
+    private val _userCrew = MutableStateFlow<Crew?>(null)
+    val userCrew: StateFlow<Crew?> = _userCrew
 
-    init {
-        loadCrewStats()
-        loadTopContributors()
+    fun fetchUserCrew(userId: String) {
+        db.collection("crews")
+            .whereArrayContains("members", userId)
+            .limit(1)
+            .get()
+            .addOnSuccessListener { documents ->
+                if (!documents.isEmpty) {
+                    val crew = documents.first().toObject(Crew::class.java)
+                    _userCrew.value = crew
+                } else {
+                    _userCrew.value = null
+                }
+            }
     }
 
-    private fun loadCrewStats() {
-        viewModelScope.launch {
-            // TODO: Replace with Firestore fetch logic
-            _crewStats.value = CrewStats(
-                totalCoins = 157000,
-                totalRaffleEntries = 89,
-                grindStreak = 12,
-                rank = 3
-            )
+    fun createCrew(userId: String, crewName: String) {
+        val newCrewRef = db.collection("crews").document()
+        val crew = Crew(
+            crewId = newCrewRef.id,
+            crewName = crewName,
+            leaderId = userId,
+            members = listOf(userId)
+        )
+        newCrewRef.set(crew)
+    }
+
+    fun leaveCrew(userId: String) {
+        _userCrew.value?.let { crew ->
+            val updatedMembers = crew.members.filterNot { it == userId }
+            val updatedCrew = crew.copy(members = updatedMembers)
+            db.collection("crews").document(crew.crewId).set(updatedCrew)
         }
     }
 
-    private fun loadTopContributors() {
-        viewModelScope.launch {
-            // TODO: Replace with Firestore fetch logic
-            _topContributors.value = listOf(
-                CrewMember("Fire", 55000),
-                CrewMember("RogueOne", 31000),
-                CrewMember("GrindBot", 27000)
-            )
+    fun updateGrindPoints(userId: String, points: Int) {
+        _userCrew.value?.let { crew ->
+            val updatedGrind = crew.totalGrind + points
+            db.collection("crews").document(crew.crewId)
+                .update("totalGrind", updatedGrind)
+        }
+    }
+
+    fun calculateCrewMultiplier(): Double {
+        val grind = _userCrew.value?.totalGrind ?: return 1.0
+        return when {
+            grind >= 10000 -> 1.20
+            grind >= 5000 -> 1.15
+            grind >= 1000 -> 1.10
+            grind >= 100 -> 1.05
+            else -> 1.0
         }
     }
 }

@@ -1,42 +1,27 @@
-﻿import java.text.SimpleDateFormat
-import java.util.Locale
-import android.util.Log
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
-package com.fire.adforge.viewmodel
+﻿package com.fire.adforge.viewmodel
 
 import androidx.lifecycle.ViewModel
+import com.fire.adforge.model.Clan
 import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.tasks.await
-import com.google.firebase.firestore.FieldValue
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 
 class ClanViewModel : ViewModel() {
+
     private val db = FirebaseFirestore.getInstance()
+    private val _clanData = MutableStateFlow<Clan?>(null)
+    val clanData: StateFlow<Clan?> = _clanData
 
-    fun joinClan(userId: String, clanId: String, onResult: (Boolean) -> Unit) {
-        CoroutineScope(Dispatchers.IO).launch {
-            try {
-                db.collection("users").document(userId)
-                    .update("clanId", clanId).await()
+    init {
+        fetchClan("user_test_id") //  Replace with real auth logic
+    }
 
-                val clanRef = db.collection("clans").document(clanId)
-                clanRef.update("members", FieldValue.arrayUnion(userId)).await()
-                clanRef.update("memberCount", FieldValue.increment(1)).await()
-
-                val snap = clanRef.get().await()
-                val members = (snap.getLong("memberCount") ?: 0).toInt()
-                if (members == 5) {
-                    PersonalWallViewModel().unlockBadge(userId, "clanFormed")
-                }
-                onResult(true)
-                PersonalWallViewModel().unlockBadge(userId, "crewMate")
-            } catch (e: Exception) {
-                onResult(false)
+    private fun fetchClan(userId: String) {
+        db.collection("clans").whereArrayContains("crewIds", "crew_test_id").get().addOnSuccessListener { snapshot ->
+            if (!snapshot.isEmpty) {
+                val clan = snapshot.first().toObject(Clan::class.java)
+                _clanData.value = clan
             }
         }
     }
 }
-

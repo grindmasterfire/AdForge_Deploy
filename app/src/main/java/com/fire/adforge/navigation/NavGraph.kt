@@ -11,6 +11,9 @@ import com.fire.adforge.ui.clan.ClanWallScreen
 @Composable
 fun AppNavGraph(navController: NavHostController, startDestination: String = "home") {
     NavHost(navController = navController, startDestination = startDestination) {
+        composable("cipherbot_wall") {
+            com.fire.adforge.ui.special.CipherBotWallScreen()
+        }
         composable("personal_wall") {
             PersonalWallScreen(userId = "currentUserId") // replace with real user ID
         }

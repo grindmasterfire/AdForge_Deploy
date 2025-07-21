@@ -1,0 +1,26 @@
+﻿import java.text.SimpleDateFormat
+import java.util.Locale
+import android.util.Log
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+package com.fire.adforge.firebase
+
+import android.app.Application
+import android.util.Log
+import com.google.firebase.FirebaseApp
+import com.google.firebase.crashlytics.FirebaseCrashlytics
+
+object FirebaseHooks {
+
+    fun initialize(app: Application) {
+        try {
+            FirebaseApp.initializeApp(app)
+            FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true)
+            Log.d("FirebaseHooks", "? Firebase initialized successfully.")
+        } catch (e: Exception) {
+            Log.e("FirebaseHooks", "? Firebase initialization failed: \")
+        }
+    }
+}
+
+

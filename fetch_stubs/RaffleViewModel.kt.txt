@@ -1,0 +1,39 @@
+﻿package com.fire.adforge.viewmodel
+
+import androidx.lifecycle.ViewModel
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+
+class RaffleViewModel : ViewModel() {
+
+    fun tryJoinRaffle(userId: String) {
+        com.fire.adforge.wallet.CoinWalletManager.deductCoins(userId, 10) { success ->
+            if (success) {
+                
+com.fire.adforge.raffle.RaffleTicketLedger.logTicket(userId, "breadloop")
+println("Raffle joined successfully")
+            } else {
+                println("Not enough coins to join raffle")
+            }
+        }
+    }
+
+    fun tryJoinRaffle(userId: String) {
+        com.fire.adforge.wallet.CoinWalletManager.deductCoins(userId, 10) { success ->
+            if (success) {
+                
+com.fire.adforge.raffle.RaffleTicketLedger.logTicket(userId, "breadloop")
+println("Raffle joined successfully")
+            } else {
+                println("Not enough coins to join raffle")
+            }
+        }
+    }
+    private val _raffleStatus = MutableStateFlow("Ready")
+    val raffleStatus: StateFlow<String> = _raffleStatus
+
+    fun enterRaffle() {
+        _raffleStatus.value = "Entered!"
+    }
+}
+

@@ -21,3 +21,15 @@ object CoinWalletManager {
         }
     }
 }
+
+fun addCoins(amount: Int, source: String, category: SponsorEngine.SponsorCategory) {
+    userBalance += amount
+    transactionHistory.add(
+        CoinTransaction(
+            amount = amount,
+            source = source,
+            category = category.name,
+            timestamp = System.currentTimeMillis()
+        )
+    )
+}

@@ -1,0 +1,45 @@
+﻿import java.text.SimpleDateFormat
+import java.util.Locale
+import android.util.Log
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+package com.fire.adforge.viewmodel
+
+import androidx.lifecycle.ViewModel
+import com.google.firebase.database.*
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+
+data class CoinEntry(val timestamp: Long, val amount: Int, val type: String, val source: String?)
+
+class CoinHistoryViewModel : ViewModel() {
+    private val _history = MutableStateFlow<List<CoinEntry>>(emptyList())
+    val history: StateFlow<List<CoinEntry>> = _history
+
+    private val db = FirebaseDatabase.getInstance()
+    private val userId = "testUser" // Replace with actual user ID logic
+
+    init {
+        val historyRef = db.getReference("coinHistory/\")
+
+        historyRef.addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                val list = mutableListOf<CoinEntry>()
+                for (entrySnap in snapshot.children) {
+                    val timestamp = entrySnap.key?.toLongOrNull() ?: continue
+                    val map = entrySnap.value as? Map<*, *> ?: continue
+                    val amount = (map["amount"] as? Long)?.toInt() ?: 0
+                    val type = map["type"] as? String ?: "unknown"
+                    val source = map["source"] as? String
+
+                    list.add(CoinEntry(timestamp, amount, type, source))
+                }
+                _history.value = list.sortedByDescending { it.timestamp }
+            }
+
+            override fun onCancelled(error: DatabaseError) {}
+        })
+    }
+}
+
+

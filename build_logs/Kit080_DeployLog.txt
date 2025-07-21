@@ -1,1 +1,0 @@
-﻿Kit 80: Firebase rules v2 injected and AAB signer block added to app/build.gradle.kts

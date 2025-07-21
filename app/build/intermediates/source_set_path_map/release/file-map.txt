@@ -1,7 +1,0 @@
-com.fire.adforge.app-pngs-0 C:\Users\leona\VS_Projects\AdForge_Android3\app\build\generated\res\pngs\release
-com.fire.adforge.app-resValues-1 C:\Users\leona\VS_Projects\AdForge_Android3\app\build\generated\res\resValues\release
-com.fire.adforge.app-packageReleaseResources-2 C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
-com.fire.adforge.app-packageReleaseResources-3 C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
-com.fire.adforge.app-merged_res-4 C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release
-com.fire.adforge.app-main-5 C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res
-com.fire.adforge.app-release-6 C:\Users\leona\VS_Projects\AdForge_Android3\app\src\release\res

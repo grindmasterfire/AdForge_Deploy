@@ -1,0 +1,1 @@
+﻿// 🧠 Paste content of 'coin\CoinMath.kt.txt' here before uploading to Commander Cipher.

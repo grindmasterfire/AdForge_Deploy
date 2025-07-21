@@ -1,0 +1,1 @@
+﻿// 🧠 Paste content of 'assets\affiliate_partners.json.txt' here before uploading to Commander Cipher.

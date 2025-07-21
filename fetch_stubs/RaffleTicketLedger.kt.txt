@@ -1,0 +1,27 @@
+﻿package com.fire.adforge.raffle
+
+import com.google.firebase.firestore.FirebaseFirestore
+import java.util.*
+
+object RaffleTicketLedger {
+    private val db = FirebaseFirestore.getInstance()
+
+    fun logTicket(userId: String, raffleType: String, count: Int = 1, tag: String = "entry") {
+        val entry = hashMapOf(
+            "userId" to userId,
+            "raffleType" to raffleType,
+            "ticketCount" to count,
+            "tag" to tag,
+            "timestamp" to Date()
+        )
+        db.collection("raffle_ledger")
+            .add(entry)
+    }
+
+    fun logConstellationWinners(winners: List<String>, raffleType: String) {
+        winners.forEach { userId ->
+            logTicket(userId, raffleType, count = 0, tag = "constellation")
+        }
+    }
+}
+

@@ -1,0 +1,26 @@
+﻿package com.fire.adforge.raffle
+
+import java.util.*
+
+object RaffleScheduler {
+    private val now: Long
+        get() = System.currentTimeMillis()
+
+    fun calculateEndTime(type: RaffleType): Long {
+        return when (type) {
+            RaffleType.DAILY_CAPPED,
+            RaffleType.DAILY_UNCAPPED -> now + 24 * 60 * 60 * 1000
+            RaffleType.SEVEN_DAY -> now + 7 * 24 * 60 * 60 * 1000
+            RaffleType.JACKPOT_21_DAY,
+            RaffleType.TIERED_21_DAY,
+            RaffleType.PARTICIPATION_21_DAY -> now + 21 * 24 * 60 * 60 * 1000
+            RaffleType.BREADLOOP_SESSION -> now + 15 * 60 * 1000
+            else -> now + 30 * 60 * 1000
+        }
+    }
+
+    fun generateRaffleId(type: RaffleType): String {
+        return "\-\"
+    }
+}
+

@@ -25,3 +25,10 @@ object WalletRewardManager {
             }
     }
 }
+
+fun rewardUserFromSponsor(grossCoins: Int, sponsorName: String) {
+    val (userCoins, fireCoins) = SponsorEngine.splitRevenue(grossCoins)
+    val category = SponsorEngine.getCategory(sponsorName) ?: SponsorEngine.SponsorCategory.OFFERWALL
+    CoinWalletManager.addCoins(userCoins, source = sponsorName, category = category)
+    logFireEarnings(fireCoins, sponsorName)
+}

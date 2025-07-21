@@ -1,28 +1,23 @@
 ﻿package com.fire.adforge.logic
 
 import com.fire.adforge.model.Badge
-import com.fire.adforge.model.BadgeRules
-import com.fire.adforge.backend.MetricsTracker
-import kotlinx.coroutines.runBlocking
+import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.coroutines.tasks.await
 
 object BadgeEvaluator {
-
-    fun evaluateAll(userId: String): List<Badge> = runBlocking {
-        val stats = MetricsTracker.fetchMetrics(userId)
-
-        val unlocked = mutableListOf<Badge>()
-
-        BadgeRules.getStarterBadges().forEach { badge ->
-            val match = when (badge.id) {
-                "first_raffle" -> stats.totalRaffleWins > 0
-                "offer_grinder" -> stats.totalOffersCompleted >= 10
-                "crew_leader" -> stats.totalInvitesSent >= 1
-                "streak_master" -> false // TODO: Add streak detection
-                else -> false
-            }
-            if (match) unlocked.add(badge.copy(unlocked = true))
+    suspend fun evaluateAndGrant(userId: String, type: String, value: Int) {
+        val badgeId = when (type) {
+            "coins" -> if (value >= 5000) "coin_collector" else null
+            "raffle" -> if (value >= 3) "jackpot_slayer" else null
+            "referral" -> if (value >= 5) "tree_builder" else null
+            else -> null
         }
+        badgeId?.let { grantBadge(userId, it) }
+    }
 
-        unlocked
+    private suspend fun grantBadge(userId: String, badgeId: String) {
+        val db = FirebaseFirestore.getInstance()
+        val badge = Badge(badgeId, System.currentTimeMillis())
+        db.collection("users").document(userId).collection("badges").document(badgeId).set(badge).await()
     }
 }

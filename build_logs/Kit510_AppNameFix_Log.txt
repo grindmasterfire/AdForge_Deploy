@@ -1,0 +1,3 @@
+﻿Scanning for duplicate <string name='app_name'> entries...
+ Duplicate found in: C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\values\strings.xml
+ Deduplicated in: C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\values\strings.xml

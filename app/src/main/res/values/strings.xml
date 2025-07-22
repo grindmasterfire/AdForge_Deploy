@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AdForge</string>
-<!-- DUPLICATE REMOVED:     <string name="app_name">AdForge</string> -->
-</resources>
-    <string name="hello_world">Hello World</string>
-</resources>
-    <string name="hello_world">Hello World</string>
+    <string name="coin_label">Coins</string>
+    <string name="raffle_label">Raffles</string>
+    <string name="sponsor_label">Sponsored Offers</string>
 </resources>

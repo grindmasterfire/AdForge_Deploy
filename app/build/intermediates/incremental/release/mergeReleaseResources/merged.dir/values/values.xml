@@ -347,6 +347,7 @@
     <string name="call_notification_screening_text">Screening an incoming call</string>
     <string name="close_drawer">"Close navigation menu"</string>
     <string name="close_sheet">"Close sheet"</string>
+    <string name="coin_label">Coins</string>
     <string name="collapsed">Collapsed</string>
     <string name="date_input_headline">Entered date</string>
     <string name="date_input_headline_description">Entered date: %1$s</string>
@@ -395,12 +396,14 @@
     <string name="not_selected">Not selected</string>
     <string name="off">Off</string>
     <string name="on">On</string>
+    <string name="raffle_label">Raffles</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
     <string name="search_bar_search">Search</string>
     <string name="search_menu_title">Search</string>
     <string name="selected">Selected</string>
     <string name="snackbar_dismiss">Dismiss</string>
+    <string name="sponsor_label">Sponsored Offers</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="suggestions_available">Suggestions below</string>
     <string name="switch_role">Switch</string>

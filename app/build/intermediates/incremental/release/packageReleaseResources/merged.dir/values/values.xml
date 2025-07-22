@@ -15,6 +15,9 @@
     <color name="purple_700">#3700B3</color>
     <color name="teal_200">#03DAC5</color>
     <string name="app_name">AdForge</string>
+    <string name="coin_label">Coins</string>
+    <string name="raffle_label">Raffles</string>
+    <string name="sponsor_label">Sponsored Offers</string>
     <style name="Theme.AdForge" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

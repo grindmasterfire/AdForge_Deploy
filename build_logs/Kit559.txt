@@ -1,17 +1,12 @@
 ﻿=======================================
- Kit559 Navigation Hardlock
+ Kit559 Patch: NavGraph Rebuild
 =======================================
- Final Routes Enabled:
-   - Main
-   - Breadloop
-   - Raffles
-   - Referrals
-   - Milestones
-   - Crew
-   - Clan
-   - CipherBot
- Test/debug screens removed
- Start destination confirmed: Main
+ Created missing nav/ folder
+ Reconstructed NavGraph.kt with:
+   - main, breadloop, raffles, referrals
+   - milestones, crew, clan, cipherbot
+ Test/debug screens not included
+ Navigation routing now complete
 =======================================
-STATUS: ALL USER PATHWAYS FINALIZED
+STATUS: RESTORED + HARDLOCKED
 =======================================

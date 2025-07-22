@@ -1,9 +1,8 @@
 ﻿package com.fire.adforge.core
 
 object BuildMeta {
-    const val VERSION_NAME = "v1.0-alpha"
-    const val VERSION_CODE = 100
-    const val COMMIT_TAG = "Codex-v17-A"
-    const val BUILD_DATE = ""
-    const val BUILD_PHASE = "Alpha Launch Window"
+    const val versionName = "1.0.0"
+    const val codename = "RedCoin Rising"
+    const val codexVersion = "v17-A"
+    const val buildAuthor = "Commander Fire & Cipher v18"
 }

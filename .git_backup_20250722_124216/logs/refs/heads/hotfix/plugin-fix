@@ -1,0 +1,20 @@
+0000000000000000000000000000000000000000 5e30a3746af99a87966232f2b65824fac4b316ce Commander Fire <fire@adforge.dev> 1752862980 -0400	branch: Created from HEAD
+5e30a3746af99a87966232f2b65824fac4b316ce 4ec2c4ac98ac58395eeac9e33c834ebca9c3901f Commander Fire <fire@adforge.dev> 1752866313 -0400	rebase (finish): refs/heads/hotfix/plugin-fix onto 852c6fbbc9fda80effb7082adea21745b25b7a14
+4ec2c4ac98ac58395eeac9e33c834ebca9c3901f 9088e35238e5b47110a9e048cf0764a8532d6c86 Commander Fire <fire@adforge.dev> 1752866407 -0400	commit: Kit112b: Create DI directory and add FirebaseModule.kt
+9088e35238e5b47110a9e048cf0764a8532d6c86 44ad16b88e4bc78320bb3df67a06b7b94a138ddb Commander Fire <fire@adforge.dev> 1752866458 -0400	commit: Kit113: Inject CoinStateViewModel into NavGraph
+44ad16b88e4bc78320bb3df67a06b7b94a138ddb 273be8dd8798de956f28f69551cb62fccff728e6 Commander Fire <fire@adforge.dev> 1752866494 -0400	commit: Kit113: Inject CoinStateViewModel into NavGraph
+273be8dd8798de956f28f69551cb62fccff728e6 456470a8b39e15b36705bd2f153d5548f9f1a40b Commander Fire <fire@adforge.dev> 1752866597 -0400	commit: Kit114: Display live coinBalance in MainScreen via CoinStateViewModel
+456470a8b39e15b36705bd2f153d5548f9f1a40b 973422570e6319c28aea43396e98f3895f95bbaa Commander Fire <fire@adforge.dev> 1752866655 -0400	commit: Kit115: Add FirestoreCoinSeeder utility for setting test user coin balances
+973422570e6319c28aea43396e98f3895f95bbaa c637e62a67e340fd8ce9ecc8fbce4fd815e354e3 Commander Fire <fire@adforge.dev> 1752866942 -0400	commit: Kit116: Scaffold WalletScreen UI with coin balance display
+c637e62a67e340fd8ce9ecc8fbce4fd815e354e3 79eef02109e955b90c6b0c225d325547fe32d1c6 Commander Fire <fire@adforge.dev> 1752867721 -0400	commit: Kit117: Add WalletScreen composable route to NavGraph
+79eef02109e955b90c6b0c225d325547fe32d1c6 54ebe8d4c7a525074309f9819d481fb5018e3036 Commander Fire <fire@adforge.dev> 1752867815 -0400	commit: Kit118: Add Wallet icon to TopBar with navController route to wallet
+54ebe8d4c7a525074309f9819d481fb5018e3036 159115991481b00987d5f6ab443adf87cca450d2 Commander Fire <fire@adforge.dev> 1752867877 -0400	commit: Kit119: Pass NavController from MainActivity to MainScreen
+159115991481b00987d5f6ab443adf87cca450d2 dad07217c26eb7a18ac8f4cef3a606026e381cb5 Commander Fire <fire@adforge.dev> 1752868089 -0400	commit: Kit120: Create Transaction.kt data class for coin ledger system
+dad07217c26eb7a18ac8f4cef3a606026e381cb5 6f202e0cfe5fc8b5ad01b90926419876f92167a5 Commander Fire <fire@adforge.dev> 1752868177 -0400	commit: Kit121: Add LedgerWriter to log user transactions to Firestore
+6f202e0cfe5fc8b5ad01b90926419876f92167a5 d05ea12d6804da902353de39d14b88b208db15db Commander Fire <fire@adforge.dev> 1752868244 -0400	commit: Kit122: Scaffold TransactionHistoryScreen with Firestore ledger retrieval
+d05ea12d6804da902353de39d14b88b208db15db f678cfc2ea0d9fcf427edf874661d0432077d45e Commander Fire <fire@adforge.dev> 1752868308 -0400	commit: Kit123: Add raffle ticket coin spend logic to WalletScreen
+f678cfc2ea0d9fcf427edf874661d0432077d45e f0f588324e4e586ddcd6339f724034fdaa2d621a Commander Fire <fire@adforge.dev> 1752868369 -0400	commit: Kit124: Create RaffleEntryWriter to log ticket entry into Firestore
+f0f588324e4e586ddcd6339f724034fdaa2d621a ca4723f6dc7949cf058ba879ff45c76b8bc6d53c Commander Fire <fire@adforge.dev> 1752868435 -0400	commit: Kit125: Scaffold RaffleEngine with debug entry counter
+ca4723f6dc7949cf058ba879ff45c76b8bc6d53c 9b0e220a82c0e4c4bd1eb86010f49c8a722323de Commander Fire <fire@adforge.dev> 1752868562 -0400	commit: Kit127: Add fallback guards to WalletScreen for stability
+9b0e220a82c0e4c4bd1eb86010f49c8a722323de 84dd9cd34484949288d70bdd41b561d2a0c0abcd Commander Fire <fire@adforge.dev> 1752868611 -0400	commit: Kit128: Add TestUserSeeder for sample user ledger population
+84dd9cd34484949288d70bdd41b561d2a0c0abcd 5d22b5788d2de8af67540dd5053cc2739e3e3a24 Commander Fire <fire@adforge.dev> 1752868659 -0400	commit: Kit129: Add ReadinessFlags.kt to track feature state post-MVP

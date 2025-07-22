@@ -1,5 +1,0 @@
-﻿Kit506: Buildscript Repository Fix Applied
-- Re-added legal repositories block to buildscript {}
-- Enables plugin resolution for Gradle 8.2 + Kotlin 1.9.0
-File patched:
-  C:\Users\leona\VS_Projects\AdForge_Android3\build.gradle.kts

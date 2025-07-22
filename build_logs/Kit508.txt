@@ -1,0 +1,4 @@
+﻿Kit508: Enabled AndroidX + Jetifier
+- android.useAndroidX=true
+- android.enableJetifier=true
+Patched: C:\Users\leona\VS_Projects\AdForge_Android3\gradle.properties

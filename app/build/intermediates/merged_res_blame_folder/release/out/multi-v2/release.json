@@ -26,6 +26,25 @@
             "outputFile": "com.fire.adforge.app-merged_res-4:/values_values.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\leona\\VS_Projects\\AdForge_Android3\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "91,478",
+                        "endLines": "7,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "439,800"
+                    },
+                    "to": {
+                        "startLines": "17,28",
+                        "startColumns": "4,4",
+                        "startOffsets": "777,1426",
+                        "endLines": "22,32",
+                        "endColumns": "12,12",
+                        "endOffsets": "1125,1748"
+                    }
+                },
+                {
                     "source": "C:\\Users\\leona\\VS_Projects\\AdForge_Android3\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "1,2,3",
@@ -70,12 +89,12 @@
                         "endOffsets": "307"
                     },
                     "to": {
-                        "startLines": "17",
+                        "startLines": "23",
                         "startColumns": "4",
-                        "startOffsets": "777",
-                        "endLines": "21",
+                        "startOffsets": "1130",
+                        "endLines": "27",
                         "endColumns": "12",
-                        "endOffsets": "1068"
+                        "endOffsets": "1421"
                     }
                 },
                 {

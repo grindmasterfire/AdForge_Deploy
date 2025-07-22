@@ -1,0 +1,4 @@
+﻿Kit516: Theme fallback adjusted
+- Patched to Theme.AppCompat.Light.NoActionBar
+- Avoids missing splashscreen attributes in Material set
+Patched: C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\values\themes.xml

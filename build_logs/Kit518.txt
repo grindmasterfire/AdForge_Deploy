@@ -1,4 +1,0 @@
-﻿Kit518: Injected AppCompat and splashscreen core
-- androidx.appcompat:appcompat:1.6.1
-- androidx.core:core-splashscreen:1.0.1
-Patched: C:\Users\leona\VS_Projects\AdForge_Android3\app\build.gradle.kts

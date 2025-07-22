@@ -1,0 +1,52 @@
+e: file:///C:/Users/leona/VS_Projects/AdForge_Android3/app/build.gradle.kts:31:15: Expecting an element
+e: file:///C:/Users/leona/VS_Projects/AdForge_Android3/app/build.gradle.kts:31:16: Unresolved reference: n
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* Where:
+Build file 'C:\Users\leona\VS_Projects\AdForge_Android3\app\build.gradle.kts' line: 31
+
+* What went wrong:
+Script compilation errors:
+
+  Line 31: dependencies {\n    implementation("androidx.appcompat:appcompat:1.6.1")
+                         ^ Expecting an element
+
+  Line 31: dependencies {\n    implementation("androidx.appcompat:appcompat:1.6.1")
+                          ^ Unresolved reference: n
+
+2 errors
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* Where:
+Build file 'C:\Users\leona\VS_Projects\AdForge_Android3\app\build.gradle.kts' line: 31
+
+* What went wrong:
+Script compilation errors:
+
+  Line 31: dependencies {\n    implementation("androidx.appcompat:appcompat:1.6.1")
+                         ^ Expecting an element
+
+  Line 31: dependencies {\n    implementation("androidx.appcompat:appcompat:1.6.1")
+                          ^ Unresolved reference: n
+
+2 errors
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 6s

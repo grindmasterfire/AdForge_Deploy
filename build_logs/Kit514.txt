@@ -1,0 +1,4 @@
+﻿Kit514: Material3 theme fallback applied
+- Replaced Theme.Material3.DayNight.NoActionBar
+- Used Theme.Material.DayNight.NoActionBar fallback to pass aapt2
+Patched: C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\values\themes.xml

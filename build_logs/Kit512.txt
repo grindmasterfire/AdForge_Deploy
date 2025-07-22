@@ -1,3 +1,0 @@
-﻿Kit512: AndroidX flags force-appended
-- Re-added both flags to ensure visibility to Gradle engine
-Patched: C:\Users\leona\VS_Projects\AdForge_Android3\gradle.properties

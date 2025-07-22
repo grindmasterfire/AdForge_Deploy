@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+attr colorBackground
+attr colorError
+attr colorOnError
+attr colorOnPrimary
+attr colorOnSecondary
+attr colorOnSurface
+attr colorPrimary
+attr colorPrimaryVariant
+attr colorSecondary
+attr colorSecondaryVariant
+attr colorSurface
+color primary_dark
+color primary_main
+color primary_text
+color purple_500
+color purple_700
+color secondary_dark
+color secondary_main
+color secondary_text
+color teal_200
+drawable ic_launcher
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable splash_background
+id addCoinBtn
+id coinText
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.AdForge
+style Theme.AdForge.Splash
+style Theme.SplashScreen

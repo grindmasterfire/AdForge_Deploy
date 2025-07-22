@@ -1,4 +1,0 @@
-﻿Kit510: Forced AndroidX + Jetifier re-encoding
-- Rewrote gradle.properties using strict UTF8
-- Ensured newline and no BOM corruption
-Patched: C:\Users\leona\VS_Projects\AdForge_Android3\gradle.properties

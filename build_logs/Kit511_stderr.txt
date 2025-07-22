@@ -15,4 +15,4 @@ An exception occurred applying plugin request [id: 'com.android.application']
 > Run with --scan to get full insights.
 > Get more help at https://help.gradle.org.
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s

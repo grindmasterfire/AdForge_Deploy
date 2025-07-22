@@ -8,10 +8,13 @@ import androidx.compose.ui.Alignment
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.fire.adforge.viewmodel.BreadloopViewModel
 import com.fire.adforge.engine.RaffleEntryEngine
+import com.fire.adforge.engine.BreadloopSessionEngine
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import android.widget.Toast
+import androidx.compose.ui.platform.LocalContext
 
 @Composable
 fun BreadloopScreen() {
@@ -19,8 +22,9 @@ fun BreadloopScreen() {
     val showGratitude by vm.showGratitudePopup.collectAsState()
     val showBonus by vm.showBonusTicketPopup.collectAsState()
     val raffleId = vm.raffleId.collectAsState().value
-    val userId = "demoUser" // Replace with actual user ID in production
+    val userId = "demoUser" // Replace in production
 
+    val context = LocalContext.current
     val isPlaying = !showGratitude && !showBonus
 
     // Timer that updates playback time every second
@@ -66,6 +70,12 @@ fun BreadloopScreen() {
                         )
                         if (success) {
                             vm.completeBonusTicketFlow()
+                            val triggered = BreadloopSessionEngine.triggerDrawIfReady(raffleId)
+                            if (triggered) {
+                                CoroutineScope(Dispatchers.Main).launch {
+                                    Toast.makeText(context, " Raffle Draw Triggered!", Toast.LENGTH_SHORT).show()
+                                }
+                            }
                         }
                     }
                 },

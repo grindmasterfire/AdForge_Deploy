@@ -1,0 +1,7 @@
+﻿Kit504: Gradle Settings Repository Fix Applied
+- Removed illegal 'repositories {}' block from build.gradle.kts
+- Declared repositories in settings.gradle.kts
+- Compliant with Gradle 8+ project structure
+Files updated:
+  C:\Users\leona\VS_Projects\AdForge_Android3\build.gradle.kts
+  C:\Users\leona\VS_Projects\AdForge_Android3\settings.gradle.kts

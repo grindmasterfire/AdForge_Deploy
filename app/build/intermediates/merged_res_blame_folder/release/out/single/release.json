@@ -24,20 +24,20 @@
         "source": "com.fire.adforge.app-main-5:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.fire.adforge.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.fire.adforge.app-main-5:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "com.fire.adforge.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.fire.adforge.app-main-5:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.fire.adforge.app-merged_res-4:/drawable_splash_background.xml.flat",
-        "source": "com.fire.adforge.app-main-5:/drawable/splash_background.xml"
+        "merged": "com.fire.adforge.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.fire.adforge.app-main-5:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.fire.adforge.app-merged_res-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "com.fire.adforge.app-main-5:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.fire.adforge.app-merged_res-4:/drawable_splash_background.xml.flat",
+        "source": "com.fire.adforge.app-main-5:/drawable/splash_background.xml"
     },
     {
         "merged": "com.fire.adforge.app-merged_res-4:/mipmap-xhdpi_ic_launcher.webp.flat",

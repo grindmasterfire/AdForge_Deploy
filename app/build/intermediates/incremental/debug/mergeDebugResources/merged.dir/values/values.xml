@@ -220,7 +220,7 @@
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
     <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
-    <style name="Theme.AdForge" parent="Theme.Material.DayNight.NoActionBar">
+    <style name="Theme.AdForge" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@android:color/white</item>
@@ -231,7 +231,7 @@
         <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
         <item name="postSplashScreenTheme">@style/Theme.AdForge</item>
     </style>
-    <style name="Theme.SplashScreen" parent="Theme.Material.DayNight.NoActionBar">
+    <style name="Theme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowSplashScreenBackground">@android:color/black</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher</item>
         <item name="postSplashScreenTheme">@style/Theme.AdForge</item>

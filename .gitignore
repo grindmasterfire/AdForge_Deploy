@@ -1,2 +1,16 @@
 
 java_pid*.hprof
+
+*.log
+
+*.apk
+
+*.aab
+
+*.iml
+
+.gradle/
+
+build/
+
+.idea/

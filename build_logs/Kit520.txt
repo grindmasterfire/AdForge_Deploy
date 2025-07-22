@@ -1,4 +1,0 @@
-﻿Kit520: build.gradle.kts fully rewritten to correct dependency injection
-- Fixed syntax corruption from prior inject
-- AppCompat and SplashScreen dependencies restored cleanly
-Patched: C:\Users\leona\VS_Projects\AdForge_Android3\app\build.gradle.kts

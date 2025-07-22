@@ -4,6 +4,60 @@ ADDED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManif
 INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml:1:1-20:12
 INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml:1:1-20:12
 INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml:1:1-20:12
+MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f57f56d9f260966953cdfa3691fb8c12\transformed\jetified-material3-1.1.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9c75a7b6ec1390a2f4ba48def790e459\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3d988e61eff5b51b46e6528d15f80ac2\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\69bb6a85c1e03b70e37fbdad20523355\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c0f42c126e87905d2195db5409771907\transformed\jetified-activity-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b6797a060c6052856ca87934b389a617\transformed\jetified-animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\5430a70df69147ea73aea475e11556da\transformed\jetified-material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\35c3f73546954226106aca1d2f3fc67e\transformed\jetified-material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\436340cdbdd21037198b8671b37a4132\transformed\jetified-animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4bf13f9be728584a01b9c534f6eabc66\transformed\jetified-foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\bf65fe86e8dafc7a684ae9f194bd3b40\transformed\jetified-foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\1431b9b597d02275c6d68da592710235\transformed\jetified-ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ca57885c2333cec4708986d5552eb3a8\transformed\jetified-ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4256f8fea332edcdcdf5568fb55c9086\transformed\jetified-ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b1ce52d64431196352546bf6755451d5\transformed\jetified-ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4bb7e37be48a22e218dd4ed40ded6eb7\transformed\jetified-ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\759080cca817888a23b60887fa53b8ce\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba6593d3b258ef18d66c8086fa5f303f\transformed\jetified-ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\42206bcfd828ab1e3dd42d2aa0dff924\transformed\jetified-activity-ktx-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.7.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\68c0181f9efe944ac3b9cce5f9354566\transformed\jetified-activity-compose-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6266c2ab7ec2b84e7d740bb991ed8abf\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0bc455b7a0a6be41df319b1d5d37bb08\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\66c88380a031f8ddf63196e3fe86247c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0e8e2ff9186284a811a6d14abd2731db\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\990759a05eb5c882c572d1d185314634\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\af0d7d45d673dac6b93cb40d307d9e48\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6cdedf2d280f35cd636c35db11db90c1\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\99e059f97bab8844d0fd19082a4a7765\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3347beb1d2ff343a59c966e98bcf41cf\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\599c6d084909869b0267b4e17a42dfd0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\cea73baecc4e2b386fd447e3684ff6ab\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9eb5dfc5333114265b911f743895c381\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\321cd4c398c4f4208d244a580aa84f67\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8399ff07faa68f0886bb08ef9e244676\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3cfa3f9a3b379717d6957a09a09713aa\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\69373178fd4f9afc1c6bd723b6e433dd\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7ff83d1da6472674dd4a21bee855fb7c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0a185381937aa57d38450c6b68d84345\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f4db9d5659801b4171ee78a0fe1806af\transformed\jetified-lifecycle-viewmodel-compose-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d635c4e7d7990c53094792219cee4650\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\80554478c67271fad312253c819a48ff\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\55473bd61179120700e6a863abb2861d\transformed\jetified-runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\382f97eacd4abb21cfb3584112b6f237\transformed\jetified-core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0b235eb70c20f10ce053b2db3ddf0b8e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\28e5f7e30ffd8ed947decd582358ee00\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3bb2bc7b16e2462116866a9933512c15\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b26e1c452542e99e5217008db221baa6\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7212b0aa5f4ce00b717b8fc828a519bd\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\734764c6cac6fdaad1982f4a1cd4876b\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\61c549ffa16a6eb5224ea469795fd4ca\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -15,8 +69,22 @@ INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidMa
 application
 ADDED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml:3:5-18:19
 INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml:3:5-18:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0b235eb70c20f10ce053b2db3ddf0b8e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0b235eb70c20f10ce053b2db3ddf0b8e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7212b0aa5f4ce00b717b8fc828a519bd\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7212b0aa5f4ce00b717b8fc828a519bd\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml:8:9-35
 	android:label
@@ -49,7 +117,205 @@ uses-sdk
 INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml
+MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f57f56d9f260966953cdfa3691fb8c12\transformed\jetified-material3-1.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f57f56d9f260966953cdfa3691fb8c12\transformed\jetified-material3-1.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9c75a7b6ec1390a2f4ba48def790e459\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9c75a7b6ec1390a2f4ba48def790e459\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3d988e61eff5b51b46e6528d15f80ac2\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3d988e61eff5b51b46e6528d15f80ac2\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\69bb6a85c1e03b70e37fbdad20523355\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\69bb6a85c1e03b70e37fbdad20523355\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c0f42c126e87905d2195db5409771907\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c0f42c126e87905d2195db5409771907\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b6797a060c6052856ca87934b389a617\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b6797a060c6052856ca87934b389a617\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\5430a70df69147ea73aea475e11556da\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\5430a70df69147ea73aea475e11556da\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\35c3f73546954226106aca1d2f3fc67e\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\35c3f73546954226106aca1d2f3fc67e\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\436340cdbdd21037198b8671b37a4132\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\436340cdbdd21037198b8671b37a4132\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4bf13f9be728584a01b9c534f6eabc66\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4bf13f9be728584a01b9c534f6eabc66\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\bf65fe86e8dafc7a684ae9f194bd3b40\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\bf65fe86e8dafc7a684ae9f194bd3b40\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\1431b9b597d02275c6d68da592710235\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\1431b9b597d02275c6d68da592710235\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ca57885c2333cec4708986d5552eb3a8\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ca57885c2333cec4708986d5552eb3a8\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4256f8fea332edcdcdf5568fb55c9086\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4256f8fea332edcdcdf5568fb55c9086\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b1ce52d64431196352546bf6755451d5\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b1ce52d64431196352546bf6755451d5\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4bb7e37be48a22e218dd4ed40ded6eb7\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4bb7e37be48a22e218dd4ed40ded6eb7\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\759080cca817888a23b60887fa53b8ce\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\759080cca817888a23b60887fa53b8ce\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba6593d3b258ef18d66c8086fa5f303f\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba6593d3b258ef18d66c8086fa5f303f\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\42206bcfd828ab1e3dd42d2aa0dff924\transformed\jetified-activity-ktx-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\42206bcfd828ab1e3dd42d2aa0dff924\transformed\jetified-activity-ktx-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\68c0181f9efe944ac3b9cce5f9354566\transformed\jetified-activity-compose-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\68c0181f9efe944ac3b9cce5f9354566\transformed\jetified-activity-compose-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6266c2ab7ec2b84e7d740bb991ed8abf\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6266c2ab7ec2b84e7d740bb991ed8abf\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0bc455b7a0a6be41df319b1d5d37bb08\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0bc455b7a0a6be41df319b1d5d37bb08\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\66c88380a031f8ddf63196e3fe86247c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\66c88380a031f8ddf63196e3fe86247c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0e8e2ff9186284a811a6d14abd2731db\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0e8e2ff9186284a811a6d14abd2731db\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\990759a05eb5c882c572d1d185314634\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\990759a05eb5c882c572d1d185314634\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\af0d7d45d673dac6b93cb40d307d9e48\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\af0d7d45d673dac6b93cb40d307d9e48\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6cdedf2d280f35cd636c35db11db90c1\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6cdedf2d280f35cd636c35db11db90c1\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\99e059f97bab8844d0fd19082a4a7765\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\99e059f97bab8844d0fd19082a4a7765\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3347beb1d2ff343a59c966e98bcf41cf\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3347beb1d2ff343a59c966e98bcf41cf\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\599c6d084909869b0267b4e17a42dfd0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\599c6d084909869b0267b4e17a42dfd0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\cea73baecc4e2b386fd447e3684ff6ab\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\cea73baecc4e2b386fd447e3684ff6ab\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9eb5dfc5333114265b911f743895c381\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9eb5dfc5333114265b911f743895c381\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\321cd4c398c4f4208d244a580aa84f67\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\321cd4c398c4f4208d244a580aa84f67\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8399ff07faa68f0886bb08ef9e244676\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8399ff07faa68f0886bb08ef9e244676\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3cfa3f9a3b379717d6957a09a09713aa\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3cfa3f9a3b379717d6957a09a09713aa\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\69373178fd4f9afc1c6bd723b6e433dd\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\69373178fd4f9afc1c6bd723b6e433dd\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7ff83d1da6472674dd4a21bee855fb7c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7ff83d1da6472674dd4a21bee855fb7c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0a185381937aa57d38450c6b68d84345\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0a185381937aa57d38450c6b68d84345\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f4db9d5659801b4171ee78a0fe1806af\transformed\jetified-lifecycle-viewmodel-compose-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f4db9d5659801b4171ee78a0fe1806af\transformed\jetified-lifecycle-viewmodel-compose-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d635c4e7d7990c53094792219cee4650\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d635c4e7d7990c53094792219cee4650\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\80554478c67271fad312253c819a48ff\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\80554478c67271fad312253c819a48ff\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\55473bd61179120700e6a863abb2861d\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\55473bd61179120700e6a863abb2861d\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\382f97eacd4abb21cfb3584112b6f237\transformed\jetified-core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\382f97eacd4abb21cfb3584112b6f237\transformed\jetified-core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0b235eb70c20f10ce053b2db3ddf0b8e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0b235eb70c20f10ce053b2db3ddf0b8e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\28e5f7e30ffd8ed947decd582358ee00\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\28e5f7e30ffd8ed947decd582358ee00\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3bb2bc7b16e2462116866a9933512c15\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3bb2bc7b16e2462116866a9933512c15\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b26e1c452542e99e5217008db221baa6\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b26e1c452542e99e5217008db221baa6\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7212b0aa5f4ce00b717b8fc828a519bd\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7212b0aa5f4ce00b717b8fc828a519bd\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\734764c6cac6fdaad1982f4a1cd4876b\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\734764c6cac6fdaad1982f4a1cd4876b\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\61c549ffa16a6eb5224ea469795fd4ca\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\61c549ffa16a6eb5224ea469795fd4ca\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7212b0aa5f4ce00b717b8fc828a519bd\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7212b0aa5f4ce00b717b8fc828a519bd\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba8d163907d2c1f455f5311df189c1d0\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ab576b964d41fc59ca783c56d3da1d1f\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.fire.adforge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.fire.adforge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9bbf10cac5053def9baaf25d778a7403\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9e91281279e737ca6c9ba93cc7197302\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

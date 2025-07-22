@@ -1,0 +1,10 @@
+﻿=======================================
+ Kit563 SplashScreen Fail-Safe Patch
+=======================================
+ Removed drawable dependency
+ Set fallback black background
+ Hardcoded label: 'AdForge' and author credit
+ Placeholder Composable safe for release mode
+=======================================
+STATUS: COMPILER CRASH PATCHED
+=======================================

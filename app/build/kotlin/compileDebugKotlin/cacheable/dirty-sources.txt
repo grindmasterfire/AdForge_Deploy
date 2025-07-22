@@ -168,6 +168,7 @@ C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\F
 C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\viewmodel\WallViewModel.kt
 C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\raffles\ClanDrawEngine.kt
 C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\special\CipherBotWallScreen.kt
+C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\AdForgeApp.kt
 C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\raffle\RaffleDrawEngine.kt
 C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\PersonalWallScreen.kt
 C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\raffle\ResultEngine.kt

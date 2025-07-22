@@ -1,4 +1,0 @@
-﻿Kit524: JVM heap increased to 4GB
-- org.gradle.jvmargs=-Xmx4096m added to gradle.properties
-- Allows DexMerger to process full dependency stack
-Patched: C:\Users\leona\VS_Projects\AdForge_Android3\gradle.properties

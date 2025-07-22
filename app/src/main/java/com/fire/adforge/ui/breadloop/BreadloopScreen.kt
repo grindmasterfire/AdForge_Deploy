@@ -10,6 +10,7 @@ import com.fire.adforge.viewmodel.BreadloopViewModel
 import com.fire.adforge.engine.RaffleEntryEngine
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 @Composable
@@ -18,11 +19,21 @@ fun BreadloopScreen() {
     val showGratitude by vm.showGratitudePopup.collectAsState()
     val showBonus by vm.showBonusTicketPopup.collectAsState()
     val raffleId = vm.raffleId.collectAsState().value
-    val userId = "demoUser" //  Replace with actual user ID in production
+    val userId = "demoUser" // Replace with actual user ID in production
+
+    val isPlaying = !showGratitude && !showBonus
+
+    // Timer that updates playback time every second
+    LaunchedEffect(isPlaying) {
+        while (isPlaying) {
+            delay(1000)
+            vm.updatePlaybackTime(vm.currentPlaybackTime.value + 1000)
+        }
+    }
 
     Box(modifier = Modifier.fillMaxSize()) {
         AutoplayViewer(
-            isPlaying = !showGratitude && !showBonus,
+            isPlaying = isPlaying,
             modifier = Modifier.fillMaxSize()
         )
 

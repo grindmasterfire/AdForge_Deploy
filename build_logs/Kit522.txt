@@ -1,4 +1,0 @@
-﻿Kit522: Kotlin plugin upgraded to 1.9.20
-- Compose compiler 1.5.5 requires 1.9.20 minimum
-- build.gradle.kts updated
-Patched: C:\Users\leona\VS_Projects\AdForge_Android3\build.gradle.kts

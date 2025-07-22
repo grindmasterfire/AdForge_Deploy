@@ -4,7 +4,7 @@
             "outputFile": "com.fire.adforge.app-mergeDebugResources-2:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\3d988e61eff5b51b46e6528d15f80ac2\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\38be090766519e088f24cea4d673f44a\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

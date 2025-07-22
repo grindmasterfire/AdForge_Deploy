@@ -4,17 +4,7 @@
             "outputFile": "com.fire.adforge.app-mergeReleaseResources-2:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\9bbf10cac5053def9baaf25d778a7403\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\3d988e61eff5b51b46e6528d15f80ac2\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\38be090766519e088f24cea4d673f44a\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\3a03b8056d593d1b2594f55a738dd8f8\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

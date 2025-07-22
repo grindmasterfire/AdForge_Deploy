@@ -4,7 +4,7 @@
             "outputFile": "com.fire.adforge.app-mergeReleaseResources-2:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\3d988e61eff5b51b46e6528d15f80ac2\\transformed\\appcompat-1.6.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\38be090766519e088f24cea4d673f44a\\transformed\\appcompat-1.6.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

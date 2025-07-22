@@ -4,7 +4,7 @@
             "outputFile": "com.fire.adforge.app-mergeReleaseResources-2:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\382f97eacd4abb21cfb3584112b6f237\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\2f3bf1061943a23aa052f007fab9ae00\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\3d988e61eff5b51b46e6528d15f80ac2\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\leona\\scoop\\apps\\gradle\\current\\.gradle\\caches\\8.14.2\\transforms\\38be090766519e088f24cea4d673f44a\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

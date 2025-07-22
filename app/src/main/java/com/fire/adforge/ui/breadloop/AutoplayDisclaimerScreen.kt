@@ -1,17 +1,19 @@
 ﻿package com.fire.adforge.ui.breadloop
 
+import android.content.Context
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.fire.adforge.viewmodel.BreadloopViewModel
 
 @Composable
 fun AutoplayDisclaimerScreen(onAccept: () -> Unit) {
+    val context = LocalContext.current
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -38,12 +40,16 @@ Legal Disclosures:
  Raffle odds are based on total number of entries
  AMOE tickets hold no monetary value
 """.trimIndent(),
-            color = Color.DarkGray
+            color = MaterialTheme.colorScheme.onSurfaceVariant
         )
 
         Spacer(modifier = Modifier.height(24.dp))
 
-        Button(onClick = onAccept) {
+        Button(onClick = {
+            context.getSharedPreferences("AdForgePrefs", Context.MODE_PRIVATE)
+                .edit().putBoolean("autoplayDisclaimerAccepted", true).apply()
+            onAccept()
+        }) {
             Text("I Understand & Accept")
         }
     }

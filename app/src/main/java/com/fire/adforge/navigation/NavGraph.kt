@@ -4,27 +4,15 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.fire.adforge.ui.profile.PersonalWallScreen
-import com.fire.adforge.ui.crew.CrewWallScreen
-import com.fire.adforge.ui.clan.ClanWallScreen
+import com.fire.adforge.ui.MainScreen
+import com.fire.adforge.ui.breadloop.BreadloopScreen
+import com.fire.adforge.ui.special.CipherBotWallScreen
 
 @Composable
-fun AppNavGraph(navController: NavHostController, startDestination: String = "home") {
-    NavHost(navController = navController, startDestination = startDestination) {
-        composable("cipherbot_wall") {
-            com.fire.adforge.ui.special.CipherBotWallScreen()
-        }
-        composable("cipherbot_wall") {
-            com.fire.adforge.ui.special.CipherBotWallScreen()
-        }
-        composable("personal_wall") {
-            PersonalWallScreen(userId = "currentUserId") // replace with real user ID
-        }
-        composable("crew_wall") {
-            CrewWallScreen(crewId = "currentCrewId") // replace with real crew ID
-        }
-        composable("clan_wall") {
-            ClanWallScreen(clanId = "currentClanId") // replace with real clan ID
-        }
+fun NavGraph(navController: NavHostController) {
+    NavHost(navController = navController, startDestination = "main") {
+        composable("main") { MainScreen(navController) }
+        composable("breadloop") { BreadloopScreen() }
+        composable("cipherbot_wall") { CipherBotWallScreen() }
     }
 }

@@ -1,7 +1,0 @@
-﻿Kit502: Material3 Fix Applied
-- composeOptions enabled
-- Material3 and BOM injected
-- Gradle plugin + Kotlin compiler patched
-Files modified:
-  C:\Users\leona\VS_Projects\AdForge_Android3\app\build.gradle.kts
-  C:\Users\leona\VS_Projects\AdForge_Android3\build.gradle.kts

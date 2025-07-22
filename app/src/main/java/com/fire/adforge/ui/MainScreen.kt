@@ -1,23 +1,28 @@
 ﻿package com.fire.adforge.ui
 
-import androidx.compose.foundation.layout.*`nimport com.fire.adforge.ui.CountdownBanner`nimport com.fire.adforge.backend.CrewBadgeBinder`nimport androidx.compose.material.icons.filled.List`nimport androidx.compose.material.icons.filled.PersonAdd`nimport androidx.compose.material.icons.filled.Group`nimport androidx.compose.material.icons.filled.Star`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.material.icons.filled.MilitaryTech`nimport androidx.compose.material.icons.filled.SupportAgent`nimport androidx.compose.material.icons.filled.ShoppingCart`nimport androidx.compose.material.icons.filled.EmojiEvents`nimport androidx.compose.material.icons.filled.BarChart`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.foundation.layout.*`nimport androidx.compose.material.*`nimport androidx.compose.runtime.*`nimport androidx.compose.ui.unit.dp`nimport androidx.compose.ui.Modifier`nimport androidx.navigation.NavController
-import androidx.compose.material3.*`nimport com.fire.adforge.ui.CountdownBanner`nimport com.fire.adforge.backend.CrewBadgeBinder`nimport androidx.compose.material.icons.filled.List`nimport androidx.compose.material.icons.filled.PersonAdd`nimport androidx.compose.material.icons.filled.Group`nimport androidx.compose.material.icons.filled.Star`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.material.icons.filled.MilitaryTech`nimport androidx.compose.material.icons.filled.SupportAgent`nimport androidx.compose.material.icons.filled.ShoppingCart`nimport androidx.compose.material.icons.filled.EmojiEvents`nimport androidx.compose.material.icons.filled.BarChart`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.foundation.layout.*`nimport androidx.compose.material.*`nimport androidx.compose.runtime.*`nimport androidx.compose.ui.unit.dp`nimport androidx.compose.ui.Modifier`nimport androidx.navigation.NavController
-import androidx.compose.runtime.*`nimport com.fire.adforge.ui.CountdownBanner`nimport com.fire.adforge.backend.CrewBadgeBinder`nimport androidx.compose.material.icons.filled.List`nimport androidx.compose.material.icons.filled.PersonAdd`nimport androidx.compose.material.icons.filled.Group`nimport androidx.compose.material.icons.filled.Star`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.material.icons.filled.MilitaryTech`nimport androidx.compose.material.icons.filled.SupportAgent`nimport androidx.compose.material.icons.filled.ShoppingCart`nimport androidx.compose.material.icons.filled.EmojiEvents`nimport androidx.compose.material.icons.filled.BarChart`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.foundation.layout.*`nimport androidx.compose.material.*`nimport androidx.compose.runtime.*`nimport androidx.compose.ui.unit.dp`nimport androidx.compose.ui.Modifier`nimport androidx.navigation.NavController
-import androidx.compose.ui.Alignment`nimport com.fire.adforge.ui.CountdownBanner`nimport com.fire.adforge.backend.CrewBadgeBinder`nimport androidx.compose.material.icons.filled.List`nimport androidx.compose.material.icons.filled.PersonAdd`nimport androidx.compose.material.icons.filled.Group`nimport androidx.compose.material.icons.filled.Star`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.material.icons.filled.MilitaryTech`nimport androidx.compose.material.icons.filled.SupportAgent`nimport androidx.compose.material.icons.filled.ShoppingCart`nimport androidx.compose.material.icons.filled.EmojiEvents`nimport androidx.compose.material.icons.filled.BarChart`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.foundation.layout.*`nimport androidx.compose.material.*`nimport androidx.compose.runtime.*`nimport androidx.compose.ui.unit.dp`nimport androidx.compose.ui.Modifier`nimport androidx.navigation.NavController
-import androidx.compose.ui.Modifier`nimport com.fire.adforge.ui.CountdownBanner`nimport com.fire.adforge.backend.CrewBadgeBinder`nimport androidx.compose.material.icons.filled.List`nimport androidx.compose.material.icons.filled.PersonAdd`nimport androidx.compose.material.icons.filled.Group`nimport androidx.compose.material.icons.filled.Star`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.material.icons.filled.MilitaryTech`nimport androidx.compose.material.icons.filled.SupportAgent`nimport androidx.compose.material.icons.filled.ShoppingCart`nimport androidx.compose.material.icons.filled.EmojiEvents`nimport androidx.compose.material.icons.filled.BarChart`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.foundation.layout.*`nimport androidx.compose.material.*`nimport androidx.compose.runtime.*`nimport androidx.compose.ui.unit.dp`nimport androidx.compose.ui.Modifier`nimport androidx.navigation.NavController
-import androidx.compose.ui.unit.dp`nimport com.fire.adforge.ui.CountdownBanner`nimport com.fire.adforge.backend.CrewBadgeBinder`nimport androidx.compose.material.icons.filled.List`nimport androidx.compose.material.icons.filled.PersonAdd`nimport androidx.compose.material.icons.filled.Group`nimport androidx.compose.material.icons.filled.Star`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.material.icons.filled.MilitaryTech`nimport androidx.compose.material.icons.filled.SupportAgent`nimport androidx.compose.material.icons.filled.ShoppingCart`nimport androidx.compose.material.icons.filled.EmojiEvents`nimport androidx.compose.material.icons.filled.BarChart`nimport androidx.compose.material.icons.filled.Groups`nimport androidx.compose.foundation.layout.*`nimport androidx.compose.material.*`nimport androidx.compose.runtime.*`nimport androidx.compose.ui.unit.dp`nimport androidx.compose.ui.Modifier`nimport androidx.navigation.NavController
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 
 @Composable
-fun MainScreen() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text("Zenith Test Screen", style = MaterialTheme.typography.titleLarge)
+fun MainScreen(navController: androidx.navigation.NavHostController) {
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text("AdForge Alpha") }
+            )
+        }
+    ) { innerPadding ->
+        Column(
+            modifier = Modifier
+                .padding(innerPadding)
+                .padding(16.dp)
+        ) {
+            Text("Welcome to AdForge!", style = MaterialTheme.typography.titleLarge)
+            Spacer(modifier = Modifier.height(12.dp))
+            Text("Use the bottom nav or menu to explore Breadloop, CipherBot, and more.")
+        }
     }
 }
-
-// ✅ Kit229: Reward & Payout hub nav chain sealed — MainScreen patched

@@ -1,12 +1,5 @@
-﻿buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath("com.android.tools.build:gradle:8.11.1")
-        classpath(kotlin("gradle-plugin", version = "1.9.20"))
-    }
+﻿plugins {
+    id("com.android.application") version "8.2.2" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.10" apply false
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.10" apply false
 }
-
-

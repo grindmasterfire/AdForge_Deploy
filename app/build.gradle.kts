@@ -5,6 +5,7 @@
 }
 
 android {
+    namespace = "com.adforge.app"
     compileSdk = 34
 
     defaultConfig {

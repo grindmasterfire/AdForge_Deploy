@@ -5,6 +5,8 @@
 }
 
 android {
+
+repositories { google(); mavenCentral() }
     namespace = "com.adforge.app"
     compileSdk = 34
 

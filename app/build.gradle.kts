@@ -1,5 +1,44 @@
-﻿plugins {
+plugins {
     id("com.android.application") version "8.4.1"
     id("org.jetbrains.kotlin.android") version "1.9.10"
     id("com.google.gms.google-services") version "4.4.1"
+}
+
+
+android {
+    namespace = "com.adforge.app"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.adforge.app"
+        minSdk = 24
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = true
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }

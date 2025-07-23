@@ -1,5 +1,0 @@
-
- Patched placeholder files still present:
-  - C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\viewmodel\CipherWalletViewModel.kt
-
- Recommend replacing stubbed files with final logic in production.

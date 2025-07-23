@@ -1,0 +1,1126 @@
+Initialized native services in: C:\Users\leona\scoop\apps\gradle\current\.gradle\native
+Initialized jansi services in: C:\Users\leona\scoop\apps\gradle\current\.gradle\native
+The client will now receive all logging from the daemon (pid: 8680). The daemon log file: C:\Users\leona\scoop\apps\gradle\current\.gradle\daemon\8.14.2\daemon-8680.out.log
+Starting 11th build in daemon [uptime: 1 hrs 49 mins 54.395 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 4 worker leases.
+Now considering [C:\Users\leona\VS_Projects\AdForge_Android3] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\leona\VS_Projects\AdForge_Android3\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\leona\VS_Projects\AdForge_Android3\build.gradle.kts'.
+Included projects: [root project 'AdForge_Android3', project ':app']
+
+> Configure project :
+Evaluating root project 'AdForge_Android3' using build file 'C:\Users\leona\VS_Projects\AdForge_Android3\build.gradle.kts'.
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage1) because:
+  Build cache is disabled
+Resolved plugin [id: 'com.android.application', version: '8.2.2', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.9.10', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.serialization', version: '1.9.10', apply: false]
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage2) because:
+  Build cache is disabled
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\leona\VS_Projects\AdForge_Android3\app\build.gradle.kts'.
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage1) because:
+  Build cache is disabled
+Resolved plugin [id: 'com.android.application']
+Resolved plugin [id: 'org.jetbrains.kotlin.android']
+Resolved plugin [id: 'com.google.gms.google-services']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle81 variant
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage2) because:
+  Build cache is disabled
+All projects evaluated.
+Task name matched 'clean'
+Task name matched 'bundleRelease'
+Selected primary task 'clean' from project :
+Selected primary task 'bundleRelease' from project :
+Tasks to be executed: [task ':app:clean', task ':app:preBuild', task ':app:preReleaseBuild', task ':app:generateReleaseResValues', task ':app:processReleaseGoogleServices', task ':app:mapReleaseSourceSetPaths', task ':app:generateReleaseResources', task ':app:mergeReleaseResources', task ':app:createReleaseCompatibleScreenManifests', task ':app:extractDeepLinksRelease', task ':app:processReleaseMainManifest', task ':app:processReleaseManifest', task ':app:processApplicationManifestReleaseForBundle', task ':app:checkReleaseAarMetadata', task ':app:packageReleaseResources', task ':app:parseReleaseLocalResources', task ':app:processReleaseManifestForPackage', task ':app:processReleaseResources', task ':app:bundleReleaseResources', task ':app:checkReleaseDuplicateClasses', task ':app:buildKotlinToolingMetadata', task ':app:compileReleaseKotlin', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':app:dexBuilderRelease', task ':app:desugarReleaseFileDependencies', task ':app:mergeExtDexRelease', task ':app:mergeDexRelease', task ':app:mergeReleaseShaders', task ':app:compileReleaseShaders', task ':app:generateReleaseAssets', task ':app:mergeReleaseAssets', task ':app:mergeReleaseGlobalSynthetics', task ':app:processReleaseJavaRes', task ':app:mergeReleaseJavaResource', task ':app:mergeReleaseJniLibFolders', task ':app:mergeReleaseNativeLibs', task ':app:stripReleaseDebugSymbols', task ':app:writeReleaseAppMetadata', task ':app:buildReleasePreBundle', task ':app:mergeReleaseArtProfile', task ':app:compileReleaseArtProfile', task ':app:collectReleaseDependencies', task ':app:configureReleaseDependencies', task ':app:extractReleaseNativeSymbolTables', task ':app:parseReleaseIntegrityConfig', task ':app:packageReleaseBundle', task ':app:signReleaseBundle', task ':app:produceReleaseBundleIdeListingFile', task ':app:createReleaseBundleListingFileRedirect', task ':app:bundleRelease']
+Tasks that were excluded: []
+Resolve mutations for :app:clean (Thread[included builds,5,main]) started.
+:app:clean (Thread[Execution worker,5,main]) started.
+destroyer locations for task group 0 (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :app:clean
+Caching disabled for task ':app:clean' because:
+  Build cache is disabled
+Task ':app:clean' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:preBuild (Thread[included builds,5,main]) started.
+:app:preBuild (Thread[included builds,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preReleaseBuild (Thread[included builds,5,main]) started.
+:app:preReleaseBuild (Thread[included builds,5,main]) started.
+
+> Task :app:preReleaseBuild UP-TO-DATE
+Skipping task ':app:preReleaseBuild' as it has no actions.
+Resolve mutations for :app:generateReleaseResValues (Thread[included builds,5,main]) started.
+:app:generateReleaseResValues (Thread[included builds,5,main]) started.
+
+> Task :app:generateReleaseResValues
+Caching disabled for task ':app:generateReleaseResValues' because:
+  Build cache is disabled
+Task ':app:generateReleaseResValues' is not up-to-date because:
+  Output property 'outputDirectory' file C:\Users\leona\VS_Projects\AdForge_Android3\app\build\generated\res\resValues\release has been removed.
+Resolve mutations for :app:processReleaseGoogleServices (Thread[included builds,5,main]) started.
+:app:processReleaseGoogleServices (Thread[included builds,5,main]) started.
+
+> Task :app:processReleaseGoogleServices
+Caching disabled for task ':app:processReleaseGoogleServices' because:
+  Build cache is disabled
+Task ':app:processReleaseGoogleServices' is not up-to-date because:
+  Output property 'gmpAppId' file C:\Users\leona\VS_Projects\AdForge_Android3\app\build\gmpAppId.txt has been removed.
+  Output property 'outputDirectory' file C:\Users\leona\VS_Projects\AdForge_Android3\app\build\generated\res\processReleaseGoogleServices has been removed.
+  Output property 'outputDirectory' file C:\Users\leona\VS_Projects\AdForge_Android3\app\build\generated\res\processReleaseGoogleServices\values has been removed.
+  and more...
+Parsing json file: C:\Users\leona\VS_Projects\AdForge_Android3\app\google-services.json
+Resolve mutations for :app:mapReleaseSourceSetPaths (Thread[included builds,5,main]) started.
+:app:mapReleaseSourceSetPaths (Thread[Execution worker,5,main]) started.
+
+> Task :app:mapReleaseSourceSetPaths
+Downloading https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics/21.6.1/firebase-analytics-21.6.1.pom to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download2907855799067560551bin
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement/21.6.1/play-services-measurement-21.6.1.pom to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download10584464179122904130bin
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-sdk/21.6.1/play-services-measurement-sdk-21.6.1.pom to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download4959007464536793564bin
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-api/21.6.1/play-services-measurement-api-21.6.1.pom to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download577859499682731213bin
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-base/21.6.1/play-services-measurement-base-21.6.1.pom to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download15235166682853911378bin
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-impl/21.6.1/play-services-measurement-impl-21.6.1.pom to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download10369797122370281870bin
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-sdk-api/21.6.1/play-services-measurement-sdk-api-21.6.1.pom to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download10544242554912150087bin
+Found locally available resource with matching checksum: [https://dl.google.com/dl/android/maven2/androidx/privacysandbox/ads/ads-adservices/1.0.0-beta05/ads-adservices-1.0.0-beta05.pom, C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.privacysandbox.ads\ads-adservices\1.0.0-beta05\ac6d122f201b97ca6abe6f242346bede2fe938ee\ads-adservices-1.0.0-beta05.pom]
+Found locally available resource with matching checksum: [https://dl.google.com/dl/android/maven2/androidx/privacysandbox/ads/ads-adservices-java/1.0.0-beta05/ads-adservices-java-1.0.0-beta05.pom, C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.privacysandbox.ads\ads-adservices-java\1.0.0-beta05\57b261e3d81da6c1798ea4ddb60a456ff52be3b\ads-adservices-java-1.0.0-beta05.pom]
+Found locally available resource with matching checksum: [https://dl.google.com/dl/android/maven2/androidx/privacysandbox/ads/ads-adservices-java/1.0.0-beta05/ads-adservices-java-1.0.0-beta05.module, C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.privacysandbox.ads\ads-adservices-java\1.0.0-beta05\7601de266a8cb71f47d9d8cfe4f91b944d7f68dd\ads-adservices-java-1.0.0-beta05.module]
+Found locally available resource with matching checksum: [https://dl.google.com/dl/android/maven2/androidx/privacysandbox/ads/ads-adservices/1.0.0-beta05/ads-adservices-1.0.0-beta05.module, C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.privacysandbox.ads\ads-adservices\1.0.0-beta05\579ea1dc375765d11e7a0fc41cbfb4aff395bed7\ads-adservices-1.0.0-beta05.module]
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.firebase\firebase-common-ktx\20.4.2\e68c639c6166dfc8b7a3c125e7f55960443c1bcf\firebase-common-ktx-20.4.2.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\69f73c0ae765f7420d0dce683573a465\transformed\jetified-firebase-common-ktx-20.4.2.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-api/21.6.1/play-services-measurement-api-21.6.1.aar to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download572807638123381545bin
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement/21.6.1/play-services-measurement-21.6.1.aar to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download8513029975757032286bin
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f1fe051e3b2fce62e272e1c780269d0c\transformed\jetified-firebase-common-ktx-20.4.2 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-measurement-api\21.6.1\a6909d94c123ba666a028fba34deaa38885b0bfd\play-services-measurement-api-21.6.1.aar because:
+  Build cache is disabled
+Downloading https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics/21.6.1/firebase-analytics-21.6.1.aar to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download14079891467244999535bin
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.firebase\firebase-analytics\21.6.1\901323b7162cc9693636fd8a9083b96d9d9c2d5e\firebase-analytics-21.6.1.aar because:
+  Build cache is disabled
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-sdk/21.6.1/play-services-measurement-sdk-21.6.1.aar to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download3710081988063386275bin
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-measurement-sdk\21.6.1\4930c99bd8b585328937b86102bac2647f207d27\play-services-measurement-sdk-21.6.1.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b509efdc33cd0047e56ea56c56973931\transformed\jetified-firebase-analytics-21.6.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\1dbb9892b7f11cc6d9f6e23a5f238a12\transformed\jetified-play-services-measurement-sdk-21.6.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c264d0d6e590d1413703726ce1324786\transformed\jetified-play-services-measurement-api-21.6.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-measurement\21.6.1\1a9f44ff93b7750bef6b0f4c4726e0ba1f80c36f\play-services-measurement-21.6.1.aar because:
+  Build cache is disabled
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\e4bf9596d277a12637431e9dd6ee25f1\transformed\jetified-firebase-analytics-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\935a02ab60d64cc9d1ec8fcaaa5cc863\transformed\jetified-play-services-measurement-sdk-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f0682dbe82da7ce516e58a9b87b80e48\transformed\jetified-play-services-measurement-api-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-impl/21.6.1/play-services-measurement-impl-21.6.1.aar to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download5261082407644236278bin
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-measurement-impl\21.6.1\fd78494ff52bb77896a26efdb13b420feaff3841\play-services-measurement-impl-21.6.1.aar because:
+  Build cache is disabled
+Found locally available resource with matching checksum: [https://dl.google.com/dl/android/maven2/androidx/privacysandbox/ads/ads-adservices-java/1.0.0-beta05/ads-adservices-java-1.0.0-beta05.aar, C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.privacysandbox.ads\ads-adservices-java\1.0.0-beta05\6b85f994ec3b5265e62a8697558974a0311ff1da\ads-adservices-java-1.0.0-beta05.aar]
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.privacysandbox.ads\ads-adservices-java\1.0.0-beta05\6b85f994ec3b5265e62a8697558974a0311ff1da\ads-adservices-java-1.0.0-beta05.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d0db6106a57e1e3997efaa5e382d0463\transformed\jetified-ads-adservices-java-1.0.0-beta05.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\1bf018254b3c728aa81f6dede6e1e4b4\transformed\jetified-play-services-measurement-21.6.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\efd6a8ec33bd9609d4953ff3b0f00c38\transformed\jetified-ads-adservices-java-1.0.0-beta05 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\76abfaecd62c651a564117b4b67933ee\transformed\jetified-play-services-measurement-impl-21.6.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6df41fe5d1641695799488104e9260ee\transformed\jetified-play-services-measurement-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\5bce163be20f0e3fe5c6b073075be4b5\transformed\jetified-play-services-measurement-impl-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Found locally available resource with matching checksum: [https://dl.google.com/dl/android/maven2/androidx/privacysandbox/ads/ads-adservices/1.0.0-beta05/ads-adservices-1.0.0-beta05.aar, C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.privacysandbox.ads\ads-adservices\1.0.0-beta05\d71f9480cad5dd22b7aee38ec0ec208359d63a23\ads-adservices-1.0.0-beta05.aar]
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.privacysandbox.ads\ads-adservices\1.0.0-beta05\d71f9480cad5dd22b7aee38ec0ec208359d63a23\ads-adservices-1.0.0-beta05.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.appcompat\appcompat-resources\1.6.1\3fe43025e50b556f319b1ff82a730d5a376a31e\appcompat-resources-1.6.1.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.material\material\1.9.0\8f4a93a381be223a5bbaacd46eaab92381ab6a8\material-1.9.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9039cc078ab6483d91b432a297bc2b62\transformed\jetified-appcompat-resources-1.6.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\19ee5265ae9462eb957f19731949e273\transformed\jetified-ads-adservices-1.0.0-beta05.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.material\material\1.9.0\8f4a93a381be223a5bbaacd46eaab92381ab6a8\material-1.9.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ed944ff3496698303de7e473ca86ce33\transformed\jetified-appcompat-resources-1.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\404253a20dbf782d28f7b2a5b4e573a4\transformed\jetified-ads-adservices-1.0.0-beta05 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.appcompat\appcompat\1.6.1\6c7577004b7ebbee5ed87d512b578dd20e3c8c31\appcompat-1.6.1.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.constraintlayout\constraintlayout\2.0.1\fab633b1873e5c1fbe49d919fab85ed1f8cf47ca\constraintlayout-2.0.1.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.appcompat\appcompat\1.6.1\6c7577004b7ebbee5ed87d512b578dd20e3c8c31\appcompat-1.6.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.constraintlayout\constraintlayout\2.0.1\fab633b1873e5c1fbe49d919fab85ed1f8cf47ca\constraintlayout-2.0.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.viewpager2\viewpager2\1.0.0\91c378a09ddff66e1bb73e90edeac53487d2832b\viewpager2-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\31690610ba602b8c399f5af19e665106\transformed\jetified-viewpager2-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0dddffbfa911134d2b411b7ff4111da5\transformed\constraintlayout-2.0.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\5f2dd768a1ea6bf042ebe757b659f8b0\transformed\jetified-viewpager2-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-ads-identifier\18.0.0\222380d276fdbf17d80d6cdc9aa26781f99b30f5\play-services-ads-identifier-18.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\87e183b2b2765b996032e2b3ae1395e2\transformed\jetified-play-services-ads-identifier-18.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6839b3f4b5bc9702e44852d3f94ded7f\transformed\jetified-play-services-ads-identifier-18.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-sdk-api/21.6.1/play-services-measurement-sdk-api-21.6.1.aar to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download14919629271805516438bin
+Downloading https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-base/21.6.1/play-services-measurement-base-21.6.1.aar to C:\Users\leona\scoop\apps\gradle\current\.gradle\.tmp\gradle_download16441932865938560907bin
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-measurement-sdk-api\21.6.1\18909e185314b13425b2dc9ce0f121d258a53e6a\play-services-measurement-sdk-api-21.6.1.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-measurement-base\21.6.1\592e8d598145e95347e522c10ed3d66b76086bca\play-services-measurement-base-21.6.1.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\a03216634e6bd7334a05f52839a695bd\transformed\jetified-play-services-measurement-sdk-api-21.6.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\50d6effa7209b7a8bab06f1649c7aa9c\transformed\jetified-play-services-measurement-sdk-api-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8b027a4938c58578f8486caf65a764d4\transformed\jetified-play-services-measurement-base-21.6.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\2f9dffb6e582d9da831eb7dafc159dbe\transformed\jetified-play-services-measurement-base-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-stats\17.0.2\43b1c2623e3915d91c06ed1f95b042b390ecd498\play-services-stats-17.0.2.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\82c8a319d7e44573eebf5aa778cba000\transformed\jetified-play-services-stats-17.0.2.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\76fbf357177287dfde8c182ccf55da2c\transformed\jetified-play-services-stats-17.0.2 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.firebase\firebase-installations\17.0.1\bc0b7e156a17915f2eb7c5e38bfe51bda5421748\firebase-installations-17.0.1.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.firebase\firebase-common\20.4.2\f3814a9749517424cdd1c648f29f1d475e9c46a3\firebase-common-20.4.2.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d577f784215969212cd5b5e60c583e8d\transformed\jetified-firebase-installations-17.0.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\47be19dbb00f4e0bc5ce942b917d543f\transformed\jetified-firebase-common-20.4.2.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3ad3326b907d9ab2824d93dcd374f171\transformed\jetified-firebase-installations-17.0.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d9916f189823fc903724790eaae900d5\transformed\jetified-firebase-common-20.4.2 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.firebase\firebase-installations-interop\17.0.1\f0f167fb9779e97e89da4c47b14d55f6ed96b4a\firebase-installations-interop-17.0.1.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6e6c1534865ec591f8a0d8256f9028bc\transformed\jetified-firebase-installations-interop-17.0.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\70e23e1c369a17fb5810f97da0ececad\transformed\jetified-firebase-installations-interop-17.0.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-tasks\18.1.0\9841a7984efd142b88e8563a5f99131f24e22e1\play-services-tasks-18.1.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\18c58531e56eed19b6b5d554c4f031ee\transformed\jetified-play-services-tasks-18.1.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\082602c47884d9138421fc3f4bb19555\transformed\jetified-play-services-tasks-18.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.android.gms\play-services-basement\18.3.0\ac6d9f53fb09f9f0b6b2d3175a38d886e06bfccb\play-services-basement-18.3.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.firebase\firebase-measurement-connector\19.0.0\3f8a798ae1e716d98f5412e049476ce1df435d57\firebase-measurement-connector-19.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\2aabf69183b3da7ba6e048b73d4e3055\transformed\jetified-firebase-measurement-connector-19.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\65dc123e889a4710ad517ffe51bb4300\transformed\jetified-firebase-measurement-connector-19.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\51f93dce1ccbb8b8a78660f25cc74bf8\transformed\jetified-play-services-basement-18.3.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\99fe01f20fa35a3ad93ef4a8c4889607\transformed\jetified-play-services-basement-18.3.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.fragment\fragment\1.3.6\6391fc504e7c0f24051ac8b9da3f0ba4d1241dff\fragment-1.3.6.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.fragment\fragment\1.3.6\6391fc504e7c0f24051ac8b9da3f0ba4d1241dff\fragment-1.3.6.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4e28abb9b6e9cee7b2f65373c8936bb9\transformed\fragment-1.3.6 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.activity\activity\1.6.0\4bee9777c02790cb99e68cd397036b1d5508a630\activity-1.6.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.dynamicanimation\dynamicanimation\1.0.0\e980497a58fb319d471f3bb78d066b926a08ba8e\dynamicanimation-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.dynamicanimation\dynamicanimation\1.0.0\e980497a58fb319d471f3bb78d066b926a08ba8e\dynamicanimation-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\972034cf0eb549a497308688816e75c2\transformed\jetified-activity-1.6.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\eb3009f4b7d8a4faea16b84befc146f7\transformed\dynamicanimation-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.legacy\legacy-support-core-utils\1.0.0\9b9570042115da8629519090dfeb71df75da59fc\legacy-support-core-utils-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.legacy\legacy-support-core-utils\1.0.0\9b9570042115da8629519090dfeb71df75da59fc\legacy-support-core-utils-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9381b68fdebb8c3dbb44253cacc67795\transformed\legacy-support-core-utils-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.loader\loader\1.0.0\8af8b6cec0da85c207d03e15840e0722cbc71e70\loader-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.loader\loader\1.0.0\8af8b6cec0da85c207d03e15840e0722cbc71e70\loader-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8e7a875e11b2d0ddb807d6f689cb8a29\transformed\loader-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-viewmodel\2.5.1\81fe3e2d11ed12be941b71dbea223aa3e64c6903\lifecycle-viewmodel-2.5.1.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-viewmodel\2.5.1\81fe3e2d11ed12be941b71dbea223aa3e64c6903\lifecycle-viewmodel-2.5.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\2bd4ba605a71ed181f2dd4d9477fa31f\transformed\jetified-activity-1.6.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0c3f385895d90ef2fae47ed848cdb634\transformed\lifecycle-viewmodel-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-viewmodel-savedstate\2.5.1\35860ecab7b49f43ab38d9afffbf37847192e156\lifecycle-viewmodel-savedstate-2.5.1.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.emoji2\emoji2-views-helper\1.2.0\4a22802fc9e88ad232522f04a35d1fdc3e5b4df0\emoji2-views-helper-1.2.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\bf3d64bef28c05f20243991e75c67747\transformed\jetified-emoji2-views-helper-1.2.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\a6b61a22083dbefa7cbbd33629bbb70b\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d1301aa4c5417aae63bc7cf91fd716c3\transformed\jetified-emoji2-views-helper-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.emoji2\emoji2\1.2.0\2c95c9aa87788e4d9ce692ecfc961db004e57480\emoji2-1.2.0.aar because:
+  Build cache is disabled
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\09e06cda8bb82c8d06ad2d619f19bfb5\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.drawerlayout\drawerlayout\1.1.1\1b2b049e1e88589510ddd4d93f2699b46ecd73dd\drawerlayout-1.1.1.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.drawerlayout\drawerlayout\1.1.1\1b2b049e1e88589510ddd4d93f2699b46ecd73dd\drawerlayout-1.1.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\72d15c0221321c78b2e9d3c8fc9e4427\transformed\drawerlayout-1.1.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.coordinatorlayout\coordinatorlayout\1.1.0\8eeb7baf75b9595d017642a460df5af3bb9fa4e1\coordinatorlayout-1.1.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.coordinatorlayout\coordinatorlayout\1.1.0\8eeb7baf75b9595d017642a460df5af3bb9fa4e1\coordinatorlayout-1.1.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c44b75af1df10c4335865d96f965f0cc\transformed\coordinatorlayout-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.transition\transition\1.2.0\28003577e8b32f5417bfe899bbdc7a333dc81c9f\transition-1.2.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ba59aac92a48b93de988188a70744ef8\transformed\jetified-emoji2-1.2.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.transition\transition\1.2.0\28003577e8b32f5417bfe899bbdc7a333dc81c9f\transition-1.2.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\212893cde0b26b8d96a864a129327355\transformed\appcompat-1.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.vectordrawable\vectordrawable-animated\1.1.0\fcda1161354501471c30a4e077af6b5c4d4eddc6\vectordrawable-animated-1.1.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.vectordrawable\vectordrawable-animated\1.1.0\fcda1161354501471c30a4e077af6b5c4d4eddc6\vectordrawable-animated-1.1.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c06144d9e90c96c68647944617cf0256\transformed\jetified-emoji2-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f0c5450070c65bbb353fdb0e977e9fe5\transformed\vectordrawable-animated-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.vectordrawable\vectordrawable\1.1.0\eac7a364fff534035a2a6cb17770a1288315f69f\vectordrawable-1.1.0.aar because:
+  Build cache is disabled
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\52ccb9a05905f461a408c6f152646a3b\transformed\transition-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.vectordrawable\vectordrawable\1.1.0\eac7a364fff534035a2a6cb17770a1288315f69f\vectordrawable-1.1.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.viewpager\viewpager\1.0.0\1f90e13820f96c2fb868f9674079a551678d68b2\viewpager-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\1ed32876a719ed605f5c2def29d008a6\transformed\vectordrawable-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.viewpager\viewpager\1.0.0\1f90e13820f96c2fb868f9674079a551678d68b2\viewpager-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.recyclerview\recyclerview\1.1.0\8b4f97752ddcbc712af46d208aebd46585cde63b\recyclerview-1.1.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.recyclerview\recyclerview\1.1.0\8b4f97752ddcbc712af46d208aebd46585cde63b\recyclerview-1.1.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b927a354655caf3d46a2d931615c168a\transformed\viewpager-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.customview\customview\1.1.0\a030aaf64c5419a89f7d91a33755c4629a43471\customview-1.1.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.customview\customview\1.1.0\a030aaf64c5419a89f7d91a33755c4629a43471\customview-1.1.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ff212293575ed49769541de465fed299\transformed\material-1.9.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8ecf2a889ebbd3ea5f0191cee1ff19f7\transformed\customview-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c714beec4de0ecf4d8451cf1eec7e53c\transformed\recyclerview-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.core\core\1.12.0\5aa3088ed93ba8ebaea2b8a83befdfa829339e7a\core-1.12.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.core\core\1.12.0\5aa3088ed93ba8ebaea2b8a83befdfa829339e7a\core-1.12.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\877e662e906483e9b97b438bf23c1b54\transformed\core-1.12.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.core\core-ktx\1.12.0\1b80a40d6f34eb52c8de87c186feb57aa2a43ada\core-ktx-1.12.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.savedstate\savedstate\1.2.0\bcaeef765339b976946cc9e891536713af651ebc\savedstate-1.2.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.cursoradapter\cursoradapter\1.0.0\74014983a86b83cbce534dec4e7aa9312f5f5d82\cursoradapter-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation-experimental\1.3.0\5087c6f545117dcd474e69e1a93cacec9d7334af\annotation-experimental-1.3.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.cursoradapter\cursoradapter\1.0.0\74014983a86b83cbce534dec4e7aa9312f5f5d82\cursoradapter-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c1bac0eb2d381821272c4d2f03a704d7\transformed\jetified-savedstate-1.2.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\606411de3ff9434bbaa5b129b4a71a68\transformed\cursoradapter-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\91763f096412d9321130dba3d91efdf9\transformed\jetified-annotation-experimental-1.3.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-process\2.4.1\3e9686bbec67987b55502f4e4a2d662734d5781c\lifecycle-process-2.4.1.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9dc3b156caf7d3b39e239af3ac23fb8a\transformed\jetified-lifecycle-process-2.4.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7bd64a34d628a4d6f4e1f419362f13fb\transformed\jetified-savedstate-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-runtime\2.5.1\26e3d5564fe875473320ad0c15cab765099be8c2\lifecycle-runtime-2.5.1.aar because:
+  Build cache is disabled
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\10d4b0d314ff3cb10f36a309256f9785\transformed\jetified-annotation-experimental-1.3.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-runtime\2.5.1\26e3d5564fe875473320ad0c15cab765099be8c2\lifecycle-runtime-2.5.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.cardview\cardview\1.0.0\158dbc2e2bc502815821191b04446b8f663c1874\cardview-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\61b3703853d68dbf09a374ae05888f59\transformed\jetified-core-ktx-1.12.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.cardview\cardview\1.0.0\158dbc2e2bc502815821191b04446b8f663c1874\cardview-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6bc2a623f780f8d2ec898fa3278b7603\transformed\jetified-lifecycle-process-2.4.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\com.google.firebase\firebase-components\17.1.5\564a24061437251d8754791a281944e817ef93e3\firebase-components-17.1.5.aar because:
+  Build cache is disabled
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0452c6173e30abc190e2edb9d483a27d\transformed\cardview-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4c3cc0140d90a8741a3b174e61829140\transformed\lifecycle-runtime-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\547bc9512752ea84f35ac2c5724dd283\transformed\jetified-firebase-components-17.1.5.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\74aa9fc16c312c40c28623e8505c1b00\transformed\jetified-core-ktx-1.12.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\87bf5fe6a6d227aa8449925944b6b8ae\transformed\jetified-firebase-components-17.1.5 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.interpolator\interpolator\1.0.0\8a01fa254a23b9388571eb6334b03707c7d122d7\interpolator-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.versionedparcelable\versionedparcelable\1.1.1\18e18071e7715679e0593c570217edeb5ca48b9e\versionedparcelable-1.1.1.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.startup\startup-runtime\1.1.1\9d4ba67056aff98b69eadc1477c19a1e67cb9470\startup-runtime-1.1.1.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.versionedparcelable\versionedparcelable\1.1.1\18e18071e7715679e0593c570217edeb5ca48b9e\versionedparcelable-1.1.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.interpolator\interpolator\1.0.0\8a01fa254a23b9388571eb6334b03707c7d122d7\interpolator-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\aae5a17f443def80c730516527147cad\transformed\jetified-startup-runtime-1.1.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\bbf106114fdbdfe11c1b83fc53a6e865\transformed\interpolator-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.tracing\tracing\1.0.0\69cef34711dffbc517e7a0a419ec4a98f84f496a\tracing-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-livedata\2.0.0\c17007cd0b21d6401910b0becdd16c438c68a9af\lifecycle-livedata-2.0.0.aar because:
+  Build cache is disabled
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b436ea7a9526be2026a79fe2afb29528\transformed\versionedparcelable-1.1.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\57e56388da2ae1525e2d400d162c39ac\transformed\jetified-tracing-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-livedata\2.0.0\c17007cd0b21d6401910b0becdd16c438c68a9af\lifecycle-livedata-2.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-livedata-core\2.5.1\a55defc29b52baf41304c058c91dba38b5c7651c\lifecycle-livedata-core-2.5.1.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-livedata-core\2.5.1\a55defc29b52baf41304c058c91dba38b5c7651c\lifecycle-livedata-core-2.5.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\058a45d9b62ff38f3d26250afbd14b5b\transformed\lifecycle-livedata-2.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\28a579591e2e08fdc94d92619ac88d7b\transformed\jetified-startup-runtime-1.1.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d7a100c127ec08171bfec9eca3c64083\transformed\jetified-tracing-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-runtime\2.1.0\2df0e03029caae7863ccb4825addaadc8ab6780c\core-runtime-2.1.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-runtime\2.1.0\2df0e03029caae7863ccb4825addaadc8ab6780c\core-runtime-2.1.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\53574bc5672110702ab211b3300824e5\transformed\lifecycle-livedata-core-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\a3e6c7077227b61e73525b0506754ed6\transformed\core-runtime-2.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.documentfile\documentfile\1.0.0\66104345c90cd8c2fd5ad2d3aad692b280e10c32\documentfile-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.localbroadcastmanager\localbroadcastmanager\1.0.0\2734f31c8321e83ce6b60570d14777fc33cc2ece\localbroadcastmanager-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for JetifyTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.print\print\1.0.0\7722094652c48ebe27acc94d74a55e759e4635ff\print-1.0.0.aar because:
+  Build cache is disabled
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.documentfile\documentfile\1.0.0\66104345c90cd8c2fd5ad2d3aad692b280e10c32\documentfile-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.localbroadcastmanager\localbroadcastmanager\1.0.0\2734f31c8321e83ce6b60570d14777fc33cc2ece\localbroadcastmanager-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExtractAarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\androidx.print\print\1.0.0\7722094652c48ebe27acc94d74a55e759e4635ff\print-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\aa74a1043a32c65033d89fb1899c467a\transformed\localbroadcastmanager-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\81d6ddc673771c54baf3a3065bee4c24\transformed\documentfile-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0a47ffe6600e0fb78821a5a4b18e610c\transformed\print-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for task ':app:mapReleaseSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:mapReleaseSourceSetPaths' is not up-to-date because:
+  Class path of task ':app:mapReleaseSourceSetPaths' has changed from 190d81ccde9061463c83d887a76cf69d to 48cbc6d64e2e205a237c87632215b54e.
+Resolve mutations for :app:generateReleaseResources (Thread[Execution worker,5,main]) started.
+:app:generateReleaseResources (Thread[Execution worker,5,main]) started.
+
+> Task :app:generateReleaseResources
+Skipping task ':app:generateReleaseResources' as it has no actions.
+Resolve mutations for :app:mergeReleaseResources (Thread[Execution worker,5,main]) started.
+:app:mergeReleaseResources (Thread[Execution worker,5,main]) started.
+
+> Task :app:mergeReleaseResources
+Caching disabled for task ':app:mergeReleaseResources' because:
+  Build cache is disabled
+Task ':app:mergeReleaseResources' is not up-to-date because:
+  Class path of task ':app:mergeReleaseResources' has changed from 190d81ccde9061463c83d887a76cf69d to 48cbc6d64e2e205a237c87632215b54e.
+The input changes require a full rebuild for incremental task ':app:mergeReleaseResources'.
+[MergeResources] Inputs are non-incremental full task action.
+
+Resolve mutations for :app:createReleaseCompatibleScreenManifests (Thread[included builds,5,main]) started.
+:app:createReleaseCompatibleScreenManifests (Thread[included builds,5,main]) started.
+
+> Task :app:createReleaseCompatibleScreenManifests
+Caching disabled for task ':app:createReleaseCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:createReleaseCompatibleScreenManifests' is not up-to-date because:
+  Class path of task ':app:createReleaseCompatibleScreenManifests' has changed from 190d81ccde9061463c83d887a76cf69d to 48cbc6d64e2e205a237c87632215b54e.
+Resolve mutations for :app:extractDeepLinksRelease (Thread[included builds,5,main]) started.
+:app:extractDeepLinksRelease (Thread[included builds,5,main]) started.
+
+> Task :app:mergeReleaseResources
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hi\values-hi.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-hi_values-hi.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pt\values-pt.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-pt_values-pt.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values\values.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values_values.arsc.flat
+
+> Task :app:extractDeepLinksRelease
+Caching disabled for task ':app:extractDeepLinksRelease' because:
+  Build cache is disabled
+Task ':app:extractDeepLinksRelease' is not up-to-date because:
+  Class path of task ':app:extractDeepLinksRelease' has changed from 190d81ccde9061463c83d887a76cf69d to 48cbc6d64e2e205a237c87632215b54e.
+Resolve mutations for :app:processReleaseMainManifest (Thread[included builds,5,main]) started.
+:app:processReleaseMainManifest (Thread[included builds,5,main]) started.
+
+> Task :app:mergeReleaseResources
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hr\values-hr.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-hr_values-hr.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hu\values-hu.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-hu_values-hu.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v18\values-v18.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v18_values-v18.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v16\values-v16.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v16_values-v16.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-w360dp-port-v13\values-w360dp-port-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-in\values-in.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-in_values-in.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-zh-rHK\values-zh-rHK.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-zh-rHK_values-zh-rHK.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-is\values-is.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-is_values-is.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-iw\values-iw.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-iw_values-iw.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v21\values-v21.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v21_values-v21.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-b+sr+Latn\values-b+sr+Latn.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-es-rUS\values-es-rUS.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-es-rUS_values-es-rUS.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v25\values-v25.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v25_values-v25.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pt-rPT\values-pt-rPT.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-pt-rPT_values-pt-rPT.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ro\values-ro.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ro_values-ro.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-be\values-be.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-be_values-be.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rCA\values-en-rCA.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-en-rCA_values-en-rCA.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v22\values-v22.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v22_values-v22.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h360dp-land-v13\values-h360dp-land-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sk\values-sk.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-sk_values-sk.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h480dp-land-v13\values-h480dp-land-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ru\values-ru.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ru_values-ru.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sr\values-sr.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-sr_values-sr.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-bs\values-bs.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-bs_values-bs.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ka\values-ka.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ka_values-ka.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-kn\values-kn.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-kn_values-kn.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sq\values-sq.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-sq_values-sq.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ky\values-ky.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ky_values-ky.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sv\values-sv.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-sv_values-sv.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-te\values-te.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-te_values-te.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ta\values-ta.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ta_values-ta.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-da\values-da.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-da_values-da.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-lo\values-lo.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-lo_values-lo.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h720dp-v13\values-h720dp-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-h720dp-v13_values-h720dp-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h550dp-port-v13\values-h550dp-port-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-h550dp-port-v13_values-h550dp-port-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-xlarge-v4\values-xlarge-v4.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-xlarge-v4_values-xlarge-v4.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-mk\values-mk.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-mk_values-mk.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-de\values-de.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-de_values-de.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rIN\values-en-rIN.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-en-rIN_values-en-rIN.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ur\values-ur.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ur_values-ur.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-uz\values-uz.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-uz_values-uz.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-w480dp-port-v13\values-w480dp-port-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ms\values-ms.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ms_values-ms.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-el\values-el.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-el_values-el.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-es\values-es.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-es_values-es.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-nb\values-nb.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-nb_values-nb.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-et\values-et.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-et_values-et.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ne\values-ne.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ne_values-ne.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-port\values-port.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-port_values-port.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-fa\values-fa.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-fa_values-fa.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-fi\values-fi.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-fi_values-fi.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rXC\values-en-rXC.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-en-rXC_values-en-rXC.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hdpi-v4\values-hdpi-v4.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-hdpi-v4_values-hdpi-v4.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-or\values-or.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-or_values-or.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rGB\values-en-rGB.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-en-rGB_values-en-rGB.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pa\values-pa.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-pa_values-pa.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-gl\values-gl.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-gl_values-gl.arsc.flat
+Compiling xml file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\layout\activity_main.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\layout_activity_main.xml.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pl\values-pl.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-pl_values-pl.arsc.flat
+Compiling xml file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\drawable\adforge_logo.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\drawable_adforge_logo.xml.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-xxxhdpi\ic_launcher.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-xxxhdpi_ic_launcher.webp.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-mdpi\ic_launcher_round.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-mdpi_ic_launcher_round.webp.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-xhdpi\ic_launcher_round.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-xhdpi_ic_launcher_round.webp.flat
+Compiling xml file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-anydpi-v26_ic_launcher.xml.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-hdpi\ic_launcher_round.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-hdpi_ic_launcher_round.webp.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\raw\autoplay_sample.mp4 to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\raw_autoplay_sample.mp4.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-xxxhdpi_ic_launcher_round.webp.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-watch-v21\values-watch-v21.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-watch-v21_values-watch-v21.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-hy\values-hy.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-hy_values-hy.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v17\values-v17.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v17_values-v17.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-af\values-af.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-af_values-af.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-it\values-it.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-it_values-it.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-watch-v20\values-watch-v20.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-watch-v20_values-watch-v20.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-h320dp-port-v13\values-h320dp-port-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-h320dp-port-v13_values-h320dp-port-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ldltr-v21\values-ldltr-v21.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ldltr-v21_values-ldltr-v21.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-w320dp-land-v13\values-w320dp-land-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-w320dp-land-v13_values-w320dp-land-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ar\values-ar.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ar_values-ar.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-am\values-am.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-am_values-am.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v23\values-v23.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v23_values-v23.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-az\values-az.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-az_values-az.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-zu\values-zu.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-zu_values-zu.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-as\values-as.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-as_values-as.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v28\values-v28.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v28_values-v28.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-bg\values-bg.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-bg_values-bg.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ja\values-ja.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ja_values-ja.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v24\values-v24.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v24_values-v24.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v26\values-v26.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v26_values-v26.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-v31\values-v31.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-v31_values-v31.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sw600dp-v13\values-sw600dp-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-sw600dp-v13_values-sw600dp-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-bn\values-bn.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-bn_values-bn.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-si\values-si.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-si_values-si.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ca\values-ca.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ca_values-ca.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sl\values-sl.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-sl_values-sl.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-km\values-km.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-km_values-km.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-kk\values-kk.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-kk_values-kk.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-sw\values-sw.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-sw_values-sw.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ko\values-ko.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ko_values-ko.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-cs\values-cs.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-cs_values-cs.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-tl\values-tl.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-tl_values-tl.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-pt-rBR\values-pt-rBR.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-pt-rBR_values-pt-rBR.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-th\values-th.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-th_values-th.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-tr\values-tr.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-tr_values-tr.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-en-rAU\values-en-rAU.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-en-rAU_values-en-rAU.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-lv\values-lv.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-lv_values-lv.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-lt\values-lt.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-lt_values-lt.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ldrtl-v17\values-ldrtl-v17.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ldrtl-v17_values-ldrtl-v17.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-ml\values-ml.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-ml_values-ml.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-uk\values-uk.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-uk_values-uk.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-fr-rCA\values-fr-rCA.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-fr-rCA_values-fr-rCA.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-mn\values-mn.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-mn_values-mn.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-zh-rTW\values-zh-rTW.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-zh-rTW_values-zh-rTW.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-mr\values-mr.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-mr_values-mr.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-my\values-my.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-my_values-my.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-vi\values-vi.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-vi_values-vi.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-eu\values-eu.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-eu_values-eu.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-w600dp-land-v13\values-w600dp-land-v13.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-w600dp-land-v13_values-w600dp-land-v13.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-nl\values-nl.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-nl_values-nl.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-night-v8\values-night-v8.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-night-v8_values-night-v8.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-fr\values-fr.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-fr_values-fr.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-zh-rCN\values-zh-rCN.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-zh-rCN_values-zh-rCN.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-large-v4\values-large-v4.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-large-v4_values-large-v4.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-land\values-land.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-land_values-land.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-b+es+419\values-b+es+419.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-b+es+419_values-b+es+419.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-small-v4\values-small-v4.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-small-v4_values-small-v4.arsc.flat
+Compiling XML table C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir\values-gu\values-gu.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\values-gu_values-gu.arsc.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-mdpi\ic_launcher.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-mdpi_ic_launcher.webp.flat
+Compiling xml file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\drawable\ic_launcher_background.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\drawable_ic_launcher_background.xml.flat
+Compiling xml file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\drawable\ic_launcher.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\drawable_ic_launcher.xml.flat
+Compiling xml file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\drawable\splash_background.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\drawable_splash_background.xml.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-hdpi\ic_launcher.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-hdpi_ic_launcher.webp.flat
+Compiling xml file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\drawable\ic_launcher_foreground.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\drawable_ic_launcher_foreground.xml.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-xxhdpi\ic_launcher.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-xxhdpi_ic_launcher.webp.flat
+Compiling xml file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-anydpi-v26_ic_launcher_round.xml.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-xhdpi\ic_launcher.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-xhdpi_ic_launcher.webp.flat
+Compiling file C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.webp to C:\Users\leona\VS_Projects\AdForge_Android3\app\build\intermediates\merged_res\release\mipmap-xxhdpi_ic_launcher_round.webp.flat
+
+> Task :app:processReleaseMainManifest
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6df41fe5d1641695799488104e9260ee\transformed\jetified-play-services-measurement-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\935a02ab60d64cc9d1ec8fcaaa5cc863\transformed\jetified-play-services-measurement-sdk-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\5bce163be20f0e3fe5c6b073075be4b5\transformed\jetified-play-services-measurement-impl-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\efd6a8ec33bd9609d4953ff3b0f00c38\transformed\jetified-ads-adservices-java-1.0.0-beta05 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\404253a20dbf782d28f7b2a5b4e573a4\transformed\jetified-ads-adservices-1.0.0-beta05 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ff212293575ed49769541de465fed299\transformed\material-1.9.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ed944ff3496698303de7e473ca86ce33\transformed\jetified-appcompat-resources-1.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0dddffbfa911134d2b411b7ff4111da5\transformed\constraintlayout-2.0.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\212893cde0b26b8d96a864a129327355\transformed\appcompat-1.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\5f2dd768a1ea6bf042ebe757b659f8b0\transformed\jetified-viewpager2-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6839b3f4b5bc9702e44852d3f94ded7f\transformed\jetified-play-services-ads-identifier-18.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\50d6effa7209b7a8bab06f1649c7aa9c\transformed\jetified-play-services-measurement-sdk-api-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\2f9dffb6e582d9da831eb7dafc159dbe\transformed\jetified-play-services-measurement-base-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\76fbf357177287dfde8c182ccf55da2c\transformed\jetified-play-services-stats-17.0.2 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3ad3326b907d9ab2824d93dcd374f171\transformed\jetified-firebase-installations-17.0.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d9916f189823fc903724790eaae900d5\transformed\jetified-firebase-common-20.4.2 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\70e23e1c369a17fb5810f97da0ececad\transformed\jetified-firebase-installations-interop-17.0.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\082602c47884d9138421fc3f4bb19555\transformed\jetified-play-services-tasks-18.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\65dc123e889a4710ad517ffe51bb4300\transformed\jetified-firebase-measurement-connector-19.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\99fe01f20fa35a3ad93ef4a8c4889607\transformed\jetified-play-services-basement-18.3.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f1fe051e3b2fce62e272e1c780269d0c\transformed\jetified-firebase-common-ktx-20.4.2 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4e28abb9b6e9cee7b2f65373c8936bb9\transformed\fragment-1.3.6 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f0682dbe82da7ce516e58a9b87b80e48\transformed\jetified-play-services-measurement-api-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\eb3009f4b7d8a4faea16b84befc146f7\transformed\dynamicanimation-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\2bd4ba605a71ed181f2dd4d9477fa31f\transformed\jetified-activity-1.6.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9381b68fdebb8c3dbb44253cacc67795\transformed\legacy-support-core-utils-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0c3f385895d90ef2fae47ed848cdb634\transformed\lifecycle-viewmodel-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8e7a875e11b2d0ddb807d6f689cb8a29\transformed\loader-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\09e06cda8bb82c8d06ad2d619f19bfb5\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d1301aa4c5417aae63bc7cf91fd716c3\transformed\jetified-emoji2-views-helper-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c06144d9e90c96c68647944617cf0256\transformed\jetified-emoji2-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\72d15c0221321c78b2e9d3c8fc9e4427\transformed\drawerlayout-1.1.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c44b75af1df10c4335865d96f965f0cc\transformed\coordinatorlayout-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\52ccb9a05905f461a408c6f152646a3b\transformed\transition-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f0c5450070c65bbb353fdb0e977e9fe5\transformed\vectordrawable-animated-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\1ed32876a719ed605f5c2def29d008a6\transformed\vectordrawable-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b927a354655caf3d46a2d931615c168a\transformed\viewpager-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c714beec4de0ecf4d8451cf1eec7e53c\transformed\recyclerview-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8ecf2a889ebbd3ea5f0191cee1ff19f7\transformed\customview-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\877e662e906483e9b97b438bf23c1b54\transformed\core-1.12.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\74aa9fc16c312c40c28623e8505c1b00\transformed\jetified-core-ktx-1.12.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7bd64a34d628a4d6f4e1f419362f13fb\transformed\jetified-savedstate-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\10d4b0d314ff3cb10f36a309256f9785\transformed\jetified-annotation-experimental-1.3.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\606411de3ff9434bbaa5b129b4a71a68\transformed\cursoradapter-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6bc2a623f780f8d2ec898fa3278b7603\transformed\jetified-lifecycle-process-2.4.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4c3cc0140d90a8741a3b174e61829140\transformed\lifecycle-runtime-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0452c6173e30abc190e2edb9d483a27d\transformed\cardview-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\87bf5fe6a6d227aa8449925944b6b8ae\transformed\jetified-firebase-components-17.1.5 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\bbf106114fdbdfe11c1b83fc53a6e865\transformed\interpolator-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b436ea7a9526be2026a79fe2afb29528\transformed\versionedparcelable-1.1.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\28a579591e2e08fdc94d92619ac88d7b\transformed\jetified-startup-runtime-1.1.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d7a100c127ec08171bfec9eca3c64083\transformed\jetified-tracing-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\058a45d9b62ff38f3d26250afbd14b5b\transformed\lifecycle-livedata-2.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\53574bc5672110702ab211b3300824e5\transformed\lifecycle-livedata-core-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\a3e6c7077227b61e73525b0506754ed6\transformed\core-runtime-2.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\81d6ddc673771c54baf3a3065bee4c24\transformed\documentfile-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\aa74a1043a32c65033d89fb1899c467a\transformed\localbroadcastmanager-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\e4bf9596d277a12637431e9dd6ee25f1\transformed\jetified-firebase-analytics-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0a47ffe6600e0fb78821a5a4b18e610c\transformed\print-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\e4bf9596d277a12637431e9dd6ee25f1\transformed\jetified-firebase-analytics-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6df41fe5d1641695799488104e9260ee\transformed\jetified-play-services-measurement-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\935a02ab60d64cc9d1ec8fcaaa5cc863\transformed\jetified-play-services-measurement-sdk-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\5bce163be20f0e3fe5c6b073075be4b5\transformed\jetified-play-services-measurement-impl-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\efd6a8ec33bd9609d4953ff3b0f00c38\transformed\jetified-ads-adservices-java-1.0.0-beta05 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\404253a20dbf782d28f7b2a5b4e573a4\transformed\jetified-ads-adservices-1.0.0-beta05 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ed944ff3496698303de7e473ca86ce33\transformed\jetified-appcompat-resources-1.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\ff212293575ed49769541de465fed299\transformed\material-1.9.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0dddffbfa911134d2b411b7ff4111da5\transformed\constraintlayout-2.0.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\212893cde0b26b8d96a864a129327355\transformed\appcompat-1.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\5f2dd768a1ea6bf042ebe757b659f8b0\transformed\jetified-viewpager2-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6839b3f4b5bc9702e44852d3f94ded7f\transformed\jetified-play-services-ads-identifier-18.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\2f9dffb6e582d9da831eb7dafc159dbe\transformed\jetified-play-services-measurement-base-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\50d6effa7209b7a8bab06f1649c7aa9c\transformed\jetified-play-services-measurement-sdk-api-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\76fbf357177287dfde8c182ccf55da2c\transformed\jetified-play-services-stats-17.0.2 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d9916f189823fc903724790eaae900d5\transformed\jetified-firebase-common-20.4.2 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\3ad3326b907d9ab2824d93dcd374f171\transformed\jetified-firebase-installations-17.0.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\70e23e1c369a17fb5810f97da0ececad\transformed\jetified-firebase-installations-interop-17.0.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\082602c47884d9138421fc3f4bb19555\transformed\jetified-play-services-tasks-18.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\65dc123e889a4710ad517ffe51bb4300\transformed\jetified-firebase-measurement-connector-19.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\99fe01f20fa35a3ad93ef4a8c4889607\transformed\jetified-play-services-basement-18.3.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4e28abb9b6e9cee7b2f65373c8936bb9\transformed\fragment-1.3.6 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\eb3009f4b7d8a4faea16b84befc146f7\transformed\dynamicanimation-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\2bd4ba605a71ed181f2dd4d9477fa31f\transformed\jetified-activity-1.6.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\9381b68fdebb8c3dbb44253cacc67795\transformed\legacy-support-core-utils-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8e7a875e11b2d0ddb807d6f689cb8a29\transformed\loader-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0c3f385895d90ef2fae47ed848cdb634\transformed\lifecycle-viewmodel-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\09e06cda8bb82c8d06ad2d619f19bfb5\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d1301aa4c5417aae63bc7cf91fd716c3\transformed\jetified-emoji2-views-helper-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c06144d9e90c96c68647944617cf0256\transformed\jetified-emoji2-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\72d15c0221321c78b2e9d3c8fc9e4427\transformed\drawerlayout-1.1.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c44b75af1df10c4335865d96f965f0cc\transformed\coordinatorlayout-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\52ccb9a05905f461a408c6f152646a3b\transformed\transition-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f1fe051e3b2fce62e272e1c780269d0c\transformed\jetified-firebase-common-ktx-20.4.2 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f0c5450070c65bbb353fdb0e977e9fe5\transformed\vectordrawable-animated-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\1ed32876a719ed605f5c2def29d008a6\transformed\vectordrawable-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b927a354655caf3d46a2d931615c168a\transformed\viewpager-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\c714beec4de0ecf4d8451cf1eec7e53c\transformed\recyclerview-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\8ecf2a889ebbd3ea5f0191cee1ff19f7\transformed\customview-1.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\877e662e906483e9b97b438bf23c1b54\transformed\core-1.12.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\74aa9fc16c312c40c28623e8505c1b00\transformed\jetified-core-ktx-1.12.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\7bd64a34d628a4d6f4e1f419362f13fb\transformed\jetified-savedstate-1.2.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\10d4b0d314ff3cb10f36a309256f9785\transformed\jetified-annotation-experimental-1.3.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\606411de3ff9434bbaa5b129b4a71a68\transformed\cursoradapter-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\6bc2a623f780f8d2ec898fa3278b7603\transformed\jetified-lifecycle-process-2.4.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\4c3cc0140d90a8741a3b174e61829140\transformed\lifecycle-runtime-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0452c6173e30abc190e2edb9d483a27d\transformed\cardview-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\87bf5fe6a6d227aa8449925944b6b8ae\transformed\jetified-firebase-components-17.1.5 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\bbf106114fdbdfe11c1b83fc53a6e865\transformed\interpolator-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\b436ea7a9526be2026a79fe2afb29528\transformed\versionedparcelable-1.1.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\28a579591e2e08fdc94d92619ac88d7b\transformed\jetified-startup-runtime-1.1.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\d7a100c127ec08171bfec9eca3c64083\transformed\jetified-tracing-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\058a45d9b62ff38f3d26250afbd14b5b\transformed\lifecycle-livedata-2.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\53574bc5672110702ab211b3300824e5\transformed\lifecycle-livedata-core-2.5.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\a3e6c7077227b61e73525b0506754ed6\transformed\core-runtime-2.1.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\f0682dbe82da7ce516e58a9b87b80e48\transformed\jetified-play-services-measurement-api-21.6.1 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\81d6ddc673771c54baf3a3065bee4c24\transformed\documentfile-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\0a47ffe6600e0fb78821a5a4b18e610c\transformed\print-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarTransform: C:\Users\leona\scoop\apps\gradle\current\.gradle\caches\8.14.2\transforms\aa74a1043a32c65033d89fb1899c467a\transformed\localbroadcastmanager-1.0.0 because:
+  Build cache is disabled
+  Caching not enabled.
+
+> Task :app:processReleaseMainManifest FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/leona/VS_Projects/AdForge_Android3/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+8 actionable tasks: 8 executed
+Watched directory hierarchies: [C:\Users\leona\VS_Projects\AdForge_Android3]

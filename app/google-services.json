@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277052851755",
+    "project_id": "adforge-c3cbe",
+    "storage_bucket": "adforge-c3cbe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277052851755:android:eacf341c93350297cf0c6e",
+        "android_client_info": {
+          "package_name": "com.fire.adforge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzbkVROU1TBKpVL7HsKsKZ53Km92bFoAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

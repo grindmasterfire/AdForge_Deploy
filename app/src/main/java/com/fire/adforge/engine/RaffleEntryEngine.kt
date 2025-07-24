@@ -1,60 +1,64 @@
-﻿package com.fire.adforge.engine
+package com.fire.adforge.viewmodel
 
-import com.google.firebase.Timestamp
-import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.coroutines.tasks.await
+import java.text.SimpleDateFormat
+import androidx.lifecycle.ViewModel
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 
-object RaffleEntryEngine {
+class BreadloopViewModel : ViewModel() {
+    val livenessTriggered = MutableStateFlow(false)
+    val showGratitudePopup = MutableStateFlow(false)
+    val showBonusTicketPopup = MutableStateFlow(false)
+    val raffleId = MutableStateFlow("23JS8361")
 
-    suspend fun recordAmoeEntry(userId: String, raffleId: String) {
-        val db = FirebaseFirestore.getInstance()
-        val entry = hashMapOf(
-            "userId" to userId,
-            "timestamp" to Timestamp.now(),
-            "entryType" to "AMOE"
-        )
-        db.collection("raffles")
-            .document(raffleId)
-            .collection("entries")
-            .add(entry)
-            .await()
+    val sessionCoins = MutableStateFlow(0)
+    val walletCoins = MutableStateFlow(0)
+    val isSessionEligible = MutableStateFlow(false)
+
+    val currentPlaybackTime = MutableStateFlow(0L) // in milliseconds
+    val selectedLivenessTime = MutableStateFlow(120000L) // default: 2 min
+
+    fun updatePlaybackTime(ms: Long) {
+        currentPlaybackTime.value = ms
+        if (!livenessTriggered.value && ms >= selectedLivenessTime.value) {
+            triggerLivenessMoment()
+        }
     }
 
-    suspend fun purchaseBonusTickets(
-        userId: String,
-        raffleId: String,
-        count: Int,
-        source: String,
-        currentSessionCoins: Int,
-        walletCoins: Int
-    ): Boolean {
-        val db = FirebaseFirestore.getInstance()
-        val coinsNeeded = count
-        val newSession = if (source == "session") currentSessionCoins - coinsNeeded else currentSessionCoins
-        val newWallet = if (source == "wallet") walletCoins - coinsNeeded else walletCoins
+    fun triggerLivenessMoment() {
+        livenessTriggered.value = true
+        showGratitudePopup.value = true
+    }
 
-        if (coinsNeeded > (if (source == "session") currentSessionCoins else walletCoins)) {
-            return false
-        }
+    fun onClaimAmoeTicket() {
+        isSessionEligible.value = true
+        showGratitudePopup.value = false
+        showBonusTicketPopup.value = true
+    }
 
-        val batch = db.batch()
-        val raffleRef = db.collection("raffles").document(raffleId)
+    fun completeBonusTicketFlow() {
+        showBonusTicketPopup.value = false
+    }
+}
 
-        for (i in 1..count) {
-            val ticket = hashMapOf(
-                "userId" to userId,
-                "timestamp" to Timestamp.now(),
-                "entryType" to "BONUS"
-            )
-            val newDoc = raffleRef.collection("entries").document()
-            batch.set(newDoc, ticket)
-        }
+fun getRafflePoolIdByTime(): String {
+    return when (selectedLivenessTime.value) {
+        in 120_000L..136_000L -> "pool_a"
+        in 136_001L..169_000L -> "pool_b"
+        in 169_001L..219_000L -> "pool_c"
+        in 219_001L..299_000L -> "pool_d"
+        else -> "pool_e"
+    }
+}
 
-        val userRef = db.collection("users").document(userId)
-        val coinField = if (source == "session") "sessionCoins" else "walletCoins"
-        batch.update(userRef, coinField, if (source == "session") newSession else newWallet)
-
-        batch.commit().await()
-        return true
+fun getPoolRaffleId(poolId: String): String {
+    val dateTag = SimpleDateFormat("MMdd", Locale.getDefault()).format(Date())
+    return when (poolId) {
+        "pool_a" -> "raffleA_$dateTag"
+        "pool_b" -> "raffleB_$dateTag"
+        "pool_c" -> "raffleC_$dateTag"
+        "pool_d" -> "raffleD_$dateTag"
+        "pool_e" -> "raffleE_$dateTag"
+        else -> "raffleX_$dateTag"
     }
 }

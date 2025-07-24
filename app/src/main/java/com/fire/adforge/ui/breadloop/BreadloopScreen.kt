@@ -1,4 +1,4 @@
-﻿package com.fire.adforge.ui.breadloop
+package com.fire.adforge.ui.breadloop
 
 import androidx.compose.runtime.*
 import androidx.compose.foundation.layout.*
@@ -82,6 +82,42 @@ fun BreadloopScreen() {
                 onDecline = {
                     vm.completeBonusTicketFlow()
                 }
+            )
+        }
+    }
+}
+
+@Composable
+fun RafflePoolBanner(poolId: String) {
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(Color.DarkGray)
+            .padding(8.dp)
+    ) {
+        Text(
+            text = "You've entered: ${poolId.uppercase()}",
+            color = Color.White,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.align(Alignment.CenterStart)
+        )
+    }
+}
+
+@Composable
+fun AmoeTicketCounter(count: Int) {
+    if (count > 0) {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(Color(0xFF222222))
+                .padding(8.dp)
+        ) {
+            Text(
+                text = " AMOE Tickets Earned: $count",
+                color = Color.White,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.align(Alignment.Center)
             )
         }
     }

@@ -1,0 +1,21 @@
+
+> Task :buildEnvironment
+Daemon JVM: OpenJDK 17.0.2+8-86
+  | Location:           C:\Java\jdk-17.0.2
+  | Language Version:   17
+  | Vendor:             Oracle
+  | Architecture:       amd64
+  | Is JDK:             true
+
+
+------------------------------------------------------------
+Root project 'AdForge_Android3'
+------------------------------------------------------------
+
+classpath
+No dependencies
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed

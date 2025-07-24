@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:277052851755:android:42025a15ca72d7c4cf0c6e",
+        "mobilesdk_app_id": "1:277052851755:android:eacf341c93350297cf0c6e",
         "android_client_info": {
-          "package_name": "com.adforge.app"
+          "package_name": "com.fire.adforge"
         }
       },
       "oauth_client": [],

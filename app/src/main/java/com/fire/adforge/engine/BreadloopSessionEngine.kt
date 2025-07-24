@@ -1,4 +1,4 @@
-﻿package com.fire.adforge.engine
+package com.fire.adforge.engine
 
 import android.util.Log
 import com.google.firebase.firestore.FirebaseFirestore

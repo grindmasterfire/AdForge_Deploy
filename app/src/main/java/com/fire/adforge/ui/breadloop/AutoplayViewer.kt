@@ -43,3 +43,16 @@ fun AutoplayViewer(
         }
     )
 }
+
+fun getAdQueueOrFallback(): List<String> {
+    val primaryAds = SponsorAdLoader.loadSponsorAds() // normal inventory
+    return if (primaryAds.isNotEmpty()) {
+        primaryAds
+    } else {
+        listOf(
+            "https://cdn.adforge.io/fallback1.mp4",
+            "https://cdn.adforge.io/fallback2.mp4",
+            "https://cdn.adforge.io/fallback3.mp4"
+        )
+    }
+}

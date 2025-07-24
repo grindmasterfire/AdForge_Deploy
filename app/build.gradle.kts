@@ -1,9 +1,8 @@
 plugins {
-    id("com.android.application") version "8.4.1"
-    id("org.jetbrains.kotlin.android") version "1.9.10"
-    id("com.google.gms.google-services") version "4.4.1"
+    id("com.android.application")
+    kotlin("android")
+    kotlin("plugin.serialization") version "1.9.10"
 }
-
 
 android {
     namespace = "com.adforge.app"
@@ -21,24 +20,20 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            isMinifyEnabled = false
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
-    }
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
-
-    kotlinOptions {
-        jvmTarget = "17"
     }
 
     buildFeatures {
         viewBinding = true
     }
+}
+
+dependencies {
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 }

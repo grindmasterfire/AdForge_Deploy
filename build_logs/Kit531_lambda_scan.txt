@@ -1,0 +1,134 @@
+﻿=== Kotlin Lambda Pattern Scan ===
+Scans for constructs likely to cause infinite type resolution in Kotlin compiler
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\adforge\app\MainActivity.kt:61] val shareIntent = Intent().apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\adforge\components\WatchAdButton.kt:10] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\adforge\raffle\RaffleTypeSelector.kt:19] DropdownMenuItem(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\adforge\screens\MainScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\adforge\screens\RaffleScreen.kt:25] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\engine\RaffleTrackerCaster.kt:18] val timeLeft = end?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\social\CrewManager.kt:27] crews[crewId]?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\admin\DevSettingsOverridePanel.kt:37] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\admin\PayoutQueueAdminScreen.kt:38] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\breadloop\AutoplayDisclaimerScreen.kt:48] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\breadloop\AutoplayViewer.kt:22] factory = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\breadloop\AutoplayViewer.kt:23] VideoView(context).apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\breadloop\AutoplayViewer.kt:32] setMediaController(MediaController(context).apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\breadloop\BreadloopScreen.kt:47] onClaim = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\breadloop\BreadloopScreen.kt:82] onDecline = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\breadloop\LivenessTimeSelector.kt:54] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\chat\CipherBotChatScreen.kt:38] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\chat\CrewChatScreen.kt:38] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\claims\PayoutRequestScreen.kt:47] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\claims\PayoutRequestScreen.kt:59] status?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\claims\WinnerClaimScreen.kt:30] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\clan\ClanWallScreen.kt:44] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\compliance\ComplianceExportScreen.kt:23] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\crew\CrewDashboard.kt:38] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\crew\CrewRaffleDetailScreen.kt:26] raffle?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\crew\CrewScreen.kt:38] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\crew\CrewScreen.kt:39] val intent = Intent(Intent.ACTION_SEND).apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\crew\CrewWallScreen.kt:44] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\earnings\EarningsTrendScreen.kt:26] LineChart(context).apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\earnings\EarningsTrendScreen.kt:31] val dataSet = LineDataSet(entries, "Coins Earned").apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\milestone\BoosterScreen.kt:45] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\milestone\MilestoneScreen.kt:35] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\mod\CrewModPanel.kt:34] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\payout\PayoutScreen.kt:33] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\raffle\ClanRaffleEntryScreen.kt:19] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\raffle\ClanRaffleResultScreen.kt:30] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\raffle\ClanRaffleResultScreen.kt:49] winner?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\raffle\SessionRaffleScreen.kt:38] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\raffle\SessionRaffleScreen.kt:41] onSuccess = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\raffle\SessionRaffleScreen.kt:45] onFailure = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\raffle\SessionRaffleScreen.kt:57] status?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\referral\ReferralScreen.kt:35] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\rewards\DailyRewardScreen.kt:27] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\screens\AccountSettingsScreen.kt:32] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\screens\BoosterShopScreen.kt:36] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\screens\CrewLogScreen.kt:27] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\screens\QADeviceHarnessScreen.kt:22] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\screens\RaffleScreen.kt:32] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\screens\RaffleScreen.kt:46] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\screens\RaffleScreen.kt:54] result?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\screens\RewardConfirmScreen.kt:26] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\screens\RewardLogScreen.kt:27] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\wall\WallFeedComposable.kt:46] post.imageUrl?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\wallet\CashoutScreen.kt:60] DropdownMenuItem(text = { Text(it) }, onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\wallet\EarningSummaryScreen.kt:17] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\wallet\OfferwallAttributionScreen.kt:17] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\AdForgeStoreScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\AdminMilestonePanel.kt:30] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\AdminReceiptAuditScreen.kt:35] receipt.timestamp?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\AMOEScreen.kt:28] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\AuditLogViewer.kt:29] logSnap.getValue(AuditLogEntry::class.java)?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\AuditTrailScreen.kt:20] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\BadgeWallScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\BoosterStoreScreen.kt:39] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\BoosterStoreScreen.kt:41] coinViewModel.apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CashoutScreen.kt:46] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ChatScreen.kt:59] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ClanHubScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ClanJoinScreen.kt:36] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ClanRaffleScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CoinLogScreen.kt:29] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewAdminPanel.kt:46] onCheckedChange = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewAdminPanel.kt:68] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewAdminPanel.kt:76] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewChatScreen.kt:62] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewCreateScreen.kt:14] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewCreateScreen.kt:31] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewDashboardScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewHubScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewInviteScreen.kt:39] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewInviteScreen.kt:48] message?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewJoinScreen.kt:34] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewListScreen.kt:57] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewRaffleScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewRaffleStatusScreen.kt:34] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewScoreScreen.kt:24] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\CrewSearchScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ForgeChatScreen.kt:33] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ForgeLockScreen.kt:33] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\InviteCodePanel.kt:39] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\InviteWallScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\LedgerDebugScreen.kt:25] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\LedgerLockScreen.kt:33] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\LegacyExportScreen.kt:24] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\LegalScreen.kt:32] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\LivenessPrompt.kt:17] confirmButton = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\LoginScreen.kt:19] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\MainScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\MilestoneBoostScreen.kt:32] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\QAConsoleScreen.kt:23] onValueChange = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\QAConsoleScreen.kt:31] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\QAHarnessScreen.kt:27] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\QAHarnessScreen.kt:45] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\QAHarnessScreen.kt:59] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\QAHarnessScreen.kt:70] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\RaffleEditorScreen.kt:56] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\RaffleEditorScreen.kt:71] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\RaffleRegistryScreen.kt:26] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\RaffleRegistryScreen.kt:29] actions = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\RaffleRegistryScreen.kt:30] IconButton(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\RaffleRegistryScreen.kt:51] onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\RaffleRegistryScreen.kt:54] onLongClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ReceiptQRScreen.kt:29] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ReceiptQRScreen.kt:50] bitmap?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ReceiptQRScreen.kt:54] qrData?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ReferralScreen.kt:25] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\ReferralScreen.kt:26] val sendIntent = Intent().apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\RewardReceiptScreen.kt:31] receipt.timestamp?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\SessionWrapScreen.kt:32] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\StatsAndActivityScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\SupportCenterScreen.kt:12] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\SurveyEntryScreen.kt:20] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\SurveyEntryScreen.kt:27] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\UserJournalScreen.kt:32] entry.timestamp?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\UserJournalScreen.kt:35] entry.entryCount?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\ui\UserJournalScreen.kt:38] entry.totalPaid?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\viewmodel\ClanManager.kt:42] clan?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\viewmodel\ReceiptQRViewModel.kt:30] val json = JSONObject().apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\viewmodel\ReferralEngine.kt:13] referral?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\viewmodel\UserDNAViewModel.kt:40] val join = doc.getTimestamp("created_at")?.toDate()?.let {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\fire\adforge\viewmodel\WallViewModel.kt:27] snapshot?.toObject(UserWallMeta::class.java)?.let {
+Detected 131 potential lambda traps. Review and refactor the following:

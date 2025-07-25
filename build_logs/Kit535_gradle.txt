@@ -1,4 +1,3 @@
-Starting a Gradle Daemon, 1 incompatible and 2 stopped Daemons could not be reused, use --status for details
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
@@ -81,12 +80,14 @@ Starting a Gradle Daemon, 1 incompatible and 2 stopped Daemons could not be reus
 > Task :app:javaPreCompileReleaseUnitTest UP-TO-DATE
 > Task :app:compileDebugKotlin
 > Task :app:compileReleaseKotlin
-Errors were stored into C:\Users\leona\VS_Projects\AdForge_Android3\.gradle\kotlin\errors\errors-1753472376657.log
-
-> Task :app:compileReleaseKotlin FAILED
 
 > Task :app:compileDebugKotlin FAILED
-Errors were stored into C:\Users\leona\VS_Projects\AdForge_Android3\.gradle\kotlin\errors\errors-1753472375777.log
+Errors were stored into C:\Users\leona\VS_Projects\AdForge_Android3\.gradle\kotlin\errors\errors-1753474509710.log
+
+> Task :app:compileReleaseKotlin
+Errors were stored into C:\Users\leona\VS_Projects\AdForge_Android3\.gradle\kotlin\errors\errors-1753474509837.log
+
+> Task :app:compileReleaseKotlin FAILED
 
 [Incubating] Problems report is available at: file:///C:/Users/leona/VS_Projects/AdForge_Android3/build/reports/problems/problems-report.html
 

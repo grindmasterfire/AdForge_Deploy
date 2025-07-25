@@ -1,6 +1,0 @@
-0000000000000000000000000000000000000000 cee2cf717e224fefc27ecac2667ce08313a98e3c Commander Fire <fire@adforge.dev> 1752861461 -0400	commit (initial): Kit105: Bootstrap project container and scaffold AdForge_Android3
-cee2cf717e224fefc27ecac2667ce08313a98e3c 9ead72f2473e5978da00b50c6af3ce549208e8fc Commander Fire <fire@adforge.dev> 1752861540 -0400	commit: Kit106: Wired NavGraph and MainViewModel to MainActivity
-9ead72f2473e5978da00b50c6af3ce549208e8fc a78f2501b4b57f93857fe2018cb3e6d5ec758a9e Commander Fire <fire@adforge.dev> 1752861813 -0400	commit: Kit108: Created NavGraph.kt with main route to MainScreen
-a78f2501b4b57f93857fe2018cb3e6d5ec758a9e 50015ed4c8c36c948c7cafcc4c74a52327d49ee7 Commander Fire <fire@adforge.dev> 1752861985 -0400	commit: Kit109: MainActivity wired to navController and theme scaffold
-50015ed4c8c36c948c7cafcc4c74a52327d49ee7 87053beb2e7864886e286405beb0ad7ff8985c30 Commander Fire <fire@adforge.dev> 1752862081 -0400	commit: Kit110: Base coin/raffle layout injected into MainScreen
-87053beb2e7864886e286405beb0ad7ff8985c30 5e30a3746af99a87966232f2b65824fac4b316ce Commander Fire <fire@adforge.dev> 1752862937 -0400	commit: Kit111: Added CoinStateViewModel with Firebase Auth bootstrap

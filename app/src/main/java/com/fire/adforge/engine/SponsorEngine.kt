@@ -1,40 +1,61 @@
-﻿package com.fire.adforge.engine
+package com.fire.adforge.engine
 
-enum class SponsorCategory {
-    AUTOPLAY, OFFERWALL, SURVEY, TRIAL, CASHBACK, FOCUSGROUP, EMAIL, GAME
-}
-
-data class SponsorPartner(val name: String, val category: SponsorCategory)
+import com.fire.adforge.engine.sponsors.*
 
 object SponsorEngine {
-    val sponsors = listOf(
-        SponsorPartner("Unity Ads", SponsorCategory.AUTOPLAY),
-        SponsorPartner("ExoClick", SponsorCategory.AUTOPLAY),
-        SponsorPartner("StartApp", SponsorCategory.AUTOPLAY),
-        SponsorPartner("Vungle", SponsorCategory.AUTOPLAY),
-        SponsorPartner("AdColony", SponsorCategory.AUTOPLAY),
-        SponsorPartner("Mintegral", SponsorCategory.AUTOPLAY),
-        SponsorPartner("Chartboost Mediation", SponsorCategory.AUTOPLAY),
-        SponsorPartner("AppLovin MAX", SponsorCategory.AUTOPLAY),
-        SponsorPartner("Bidease", SponsorCategory.AUTOPLAY),
-        SponsorPartner("AdGem", SponsorCategory.OFFERWALL),
-        SponsorPartner("AdGate Media", SponsorCategory.OFFERWALL),
-        SponsorPartner("OfferToro", SponsorCategory.OFFERWALL),
-        SponsorPartner("Ayet Studios", SponsorCategory.OFFERWALL),
-        SponsorPartner("Lootably", SponsorCategory.OFFERWALL),
-        SponsorPartner("CPX Research", SponsorCategory.SURVEY),
-        SponsorPartner("Pollfish", SponsorCategory.SURVEY),
-        SponsorPartner("Bitlabs", SponsorCategory.SURVEY),
-        SponsorPartner("RevU", SponsorCategory.TRIAL),
-        SponsorPartner("RevenueUniverse", SponsorCategory.TRIAL),
-        SponsorPartner("Peanut Labs", SponsorCategory.TRIAL),
-        SponsorPartner("Karma Wallet", SponsorCategory.CASHBACK),
-        SponsorPartner("Rakuten", SponsorCategory.CASHBACK),
-        SponsorPartner("Swagbucks", SponsorCategory.CASHBACK),
-        SponsorPartner("UserInterviews", SponsorCategory.FOCUSGROUP),
-        SponsorPartner("Respondent.io", SponsorCategory.FOCUSGROUP),
-        SponsorPartner("InboxDollars", SponsorCategory.EMAIL),
-        SponsorPartner("Yuno", SponsorCategory.EMAIL),
-        SponsorPartner("TGM Panel", SponsorCategory.EMAIL)
-    )
+    fun registerAll() {
+        // Auto-wired by Kit506
+        AdGemHandler().load()
+        AdGateMediaHandler().load()
+        OfferToroHandler().load()
+        AyetStudiosHandler().load()
+        UnityAdsHandler().load()
+        ironSourceHandler().load()
+        AppLovinMAXHandler().load()
+        ChartboostHandler().load()
+        FyberHandler().load()
+        TapjoyHandler().load()
+        CPAleadHandler().load()
+        VungleHandler().load()
+        AdColonyHandler().load()
+        MintegralHandler().load()
+        BideaseHandler().load()
+        PollfishHandler().load()
+        CPXResearchHandler().load()
+        TheoremReachHandler().load()
+        BitLabsHandler().load()
+        PeanutLabsHandler().load()
+        SaySoRewardsHandler().load()
+        YourSurveysHandler().load()
+        OpinionCapitalHandler().load()
+        AwinHandler().load()
+        AdmitadHandler().load()
+        CJAffiliateHandler().load()
+        RakutenAdsHandler().load()
+        FlexOffersHandler().load()
+        ImpactComHandler().load()
+        RevenueUniverseHandler().load()
+        KiwiWallHandler().load()
+        WannadsHandler().load()
+        MonlixHandler().load()
+        UserTestingHandler().load()
+        RespondentIOHandler().load()
+        ProlificHandler().load()
+        TestableMindsHandler().load()
+        TolunaHandler().load()
+        MindswarmsHandler().load()
+        RevLifterHandler().load()
+        RakutenHandler().load()
+        HoneyRewardsHandler().load()
+        SlickdealsHandler().load()
+        RetailMeNotHandler().load()
+        RewardZoneHandler().load()
+        FlashRewardsHandler().load()
+        ShoppersVoiceHandler().load()
+        PrizeRebelHandler().load()
+        InboxDollarsHandler().load()
+        GrabPointsHandler().load()
+        MoPubLegacyHandler().load()
+        ChartboostMediationHandler().load()
+    }
 }

@@ -1,9 +1,13 @@
-﻿plugins {
+plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
 
 android {
+repositories {
+    google()
+    mavenCentral()
+}
     namespace = "com.adforge.app"
     compileSdk = 34
 

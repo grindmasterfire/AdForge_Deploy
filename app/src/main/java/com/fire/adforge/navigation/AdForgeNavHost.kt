@@ -12,40 +12,44 @@ fun AdForgeNavHost(startDestination: String = "home") {
     val navController = rememberNavController()
     println("AdForgeNavHost active")
     NavHost(navController = navController, startDestination = startDestination) {
-        addAdForgeGraph(navController)
+        addMainRoutes(navController)
     }
 }
 
-fun NavGraphBuilder.addAdForgeGraph(navController: NavHostController) {
-    composable("home") { AdForgeHomeDestination(navController) }
-    composable("rewards") { AdForgeRewardsDestination(navController) }
-    composable("milestones") { AdForgeMilestoneDestination(navController) }
-    composable("payout") { AdForgePayoutDestination(navController) }
-    composable("crew") { AdForgeCrewDestination(navController) }
-    // Add more routed screens here as needed
+fun NavGraphBuilder.addMainRoutes(navController: NavHostController) {
+    addHomeScreen(navController)
+    addRewardsScreen(navController)
+    addMilestoneScreen(navController)
+    addPayoutScreen(navController)
+    addCrewScreen(navController)
 }
 
-@Composable
-fun AdForgeHomeDestination(navController: NavHostController) {
-    HomeScreen(navController)
+fun NavGraphBuilder.addHomeScreen(navController: NavHostController) {
+    composable("home") {
+        HomeScreen(navController)
+    }
 }
 
-@Composable
-fun AdForgeRewardsDestination(navController: NavHostController) {
-    RewardsScreen(navController)
+fun NavGraphBuilder.addRewardsScreen(navController: NavHostController) {
+    composable("rewards") {
+        RewardsScreen(navController)
+    }
 }
 
-@Composable
-fun AdForgeMilestoneDestination(navController: NavHostController) {
-    MilestoneScreen(navController)
+fun NavGraphBuilder.addMilestoneScreen(navController: NavHostController) {
+    composable("milestones") {
+        MilestoneScreen(navController)
+    }
 }
 
-@Composable
-fun AdForgePayoutDestination(navController: NavHostController) {
-    PayoutScreen(navController)
+fun NavGraphBuilder.addPayoutScreen(navController: NavHostController) {
+    composable("payout") {
+        PayoutScreen(navController)
+    }
 }
 
-@Composable
-fun AdForgeCrewDestination(navController: NavHostController) {
-    CrewScreen(navController)
+fun NavGraphBuilder.addCrewScreen(navController: NavHostController) {
+    composable("crew") {
+        CrewScreen(navController)
+    }
 }

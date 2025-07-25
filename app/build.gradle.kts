@@ -23,7 +23,8 @@ repositories {
 
     buildFeatures {
         
-        dataBinding = trueviewBinding = true
+        dataBinding = true
+        viewBinding = true
         dataBinding = false
     }
 
@@ -54,4 +55,5 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.7")
     debugImplementation("androidx.compose.ui:ui-test-manifest:1.6.7")
 }
+
 

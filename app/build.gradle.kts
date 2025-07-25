@@ -4,6 +4,10 @@
 }
 
 android {
+repositories {
+    google()
+    mavenCentral()
+}
     namespace = "com.fire.adforge"
     compileSdk = 34
 

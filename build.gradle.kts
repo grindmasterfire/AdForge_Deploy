@@ -1,32 +1,14 @@
 ﻿pluginManagement {
     repositories {
-        google()
         gradlePluginPortal()
+        google()
         mavenCentral()
     }
-\nbuildscript {\n    dependencies {\n        classpath("com.google.gms:google-services:4.4.0")\n    }\n    repositories {\n        google()\n        mavenCentral()\n    }\n}
-    plugins {
-        id("com.android.application") version "8.2.2"
-        kotlin("android") version "1.9.10"
-        kotlin("plugin.serialization") version "1.9.10"
-    }
 }
-
-plugins {
-    kotlin("plugin.serialization") version "1.9.10"
-}
-
-allprojects {
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-    }
-}
-
-
-tasks.withType<Test> {
-    useJUnitPlatform()
-    testLogging {
-        events("passed", "skipped", "failed")
     }
 }

@@ -4,6 +4,7 @@
 }
 
 android {
+    namespace = "com.fire.adforge"
     compileSdk = 34
 
     defaultConfig {

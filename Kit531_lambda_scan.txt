@@ -1,0 +1,5 @@
+﻿[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\example\adforge3\MainScreen.kt:144] Button(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\example\adforge3\MainScreen.kt:160] DropdownMenuItem(onClick = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\example\adforge3\ui\Navigation.kt:42] topBar = {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\example\adforge3\viewmodel\ViewModelUtils.kt:19] .apply {
+[C:\Users\leona\VS_Projects\AdForge_Android3\app\src\main\java\com\example\adforge3\viewmodel\ViewModelUtils.kt:32] ?.let {

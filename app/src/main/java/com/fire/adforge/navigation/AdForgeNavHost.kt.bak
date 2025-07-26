@@ -1,0 +1,1405 @@
+﻿import java.text.SimpleDateFormat`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+import java.util.Locale`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+import android.util.Log`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+import androidx.compose.material3.MaterialTheme`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+import androidx.compose.material3.Text`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+package com.fire.adforge.navigation
+
+import androidx.compose.runtime.Composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+import androidx.navigation.compose.NavHost`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+import androidx.navigation.compose.composable`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+import androidx.navigation.NavHostController`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+@Composable
+fun AdForgeNavWrapper(navController: NavHostController) {
+    NavHost(
+        navController = navController,
+        startDestination = \"MainScreen\"
+    ) {
+        // TODO: Replace all inline 'composable { ... }' with calls to named composable functions
+        // e.g., composable(\"MainScreen\") { MainScreen(navController) }
+    }
+}
+import com.fire.adforge.ui.*`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+import com.fire.adforge.ui.screens.MainScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.mail.MailCenterScreen`nimport com.fire.adforge.ui.raffle.RaffleWallScreen`nimport com.fire.adforge.ui.crew.CrewScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleScreen`nimport com.fire.adforge.ui.raffle.SessionRaffleEntryScreen`nimport com.fire.adforge.ui.crew.CrewRaffleLoaderScreen`nimport com.fire.adforge.ui.crew.CrewRaffleDetailScreen`nimport com.fire.adforge.ui.crew.CrewRaffleAdminPanel`nimport com.fire.adforge.ui.claims.WinnerClaimScreen`nimport com.fire.adforge.ui.admin.PayoutQueueAdminScreen`nimport com.fire.adforge.ui.claims.PayoutRequestScreen`nimport com.fire.adforge.ui.admin.PayoutAuditLogScreen`nimport com.fire.adforge.ui.claims.PayoutHistoryScreen`nimport com.fire.adforge.ui.rewards.DailyRewardScreen
+
+@Composable
+fun AdForgeNavHost(navController: NavHostController) {
+    NavHost(navController = navController, startDestination = "main") {
+        composable("raffle") { RaffleScreen()
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        composable("raffle") { RaffleScreen()
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        composable("raffle") { RaffleScreen()
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        composable("raffle") { RaffleScreen()
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        composable("raffle") { RaffleScreen()
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        composable("raffle") { RaffleScreen()
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+AdForgeNavWrapper(navController)
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        composable("raffle") { RaffleScreen()
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        composable("raffle") { RaffleScreen()
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+composable("sessionRaffle/{sessionId}/{userId}/{coinBalance}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    val coins = backStackEntry.arguments?.getString("coinBalance")?.toIntOrNull() ?: 0
+    SessionRaffleScreen(sessionId, userId, coins) {
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+composable("raffleEntries/{sessionId}") { backStackEntry ->
+    val sessionId = backStackEntry.arguments?.getString("sessionId") ?: ""
+    SessionRaffleEntryScreen(sessionId)
+
+composable("crewRaffles") {
+    CrewRaffleLoaderScreen()
+
+composable("crewRaffleDetail/{crewName}") { backStackEntry ->
+    val crewName = backStackEntry.arguments?.getString("crewName") ?: ""
+    CrewRaffleDetailScreen(crewName)
+
+composable("crewRaffleAdmin") {
+    CrewRaffleAdminPanel()
+
+composable("winnerClaim/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    WinnerClaimScreen(userId)
+
+composable("payoutAdmin") {
+    PayoutQueueAdminScreen()
+
+composable("requestPayout/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutRequestScreen(userId)
+
+composable("payoutAudit") {
+    PayoutAuditLogScreen()
+
+composable("payoutHistory/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    PayoutHistoryScreen(userId)
+
+composable("dailyReward/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    DailyRewardScreen(userId)
+
+composable("rewardHub/{userId}") { backStackEntry ->
+    val userId = backStackEntry.arguments?.getString("userId") ?: ""
+    Column(modifier = Modifier.padding(16.dp)) {
+        Text("Rewards & Raffles", style = MaterialTheme.typography.h5)
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = { navController.navigate("dailyReward/$userId") }) {
+            Text("Daily Reward")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("sessionRaffle/$userId/$userId/200") }) {
+            Text("Join Live Raffle")
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(onClick = { navController.navigate("raffleEntries/session123") }) {
+            Text("View Raffle Entries")
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.AdForge" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:windowBackground">@color/white</item>
-        <item name="android:colorBackground">@color/white</item>
-        <item name="android:statusBarColor">@color/black</item>
-        <item name="android:navigationBarColor">@color/black</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-        
-        <item name="windowSplashScreenBackground">@color/black</item>
-        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+    <!-- Base application theme using Material3 -->
+    <style name="Theme.AdForge" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/purple_700</item>
+
+        <!-- Secondary brand colors -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar and system UI -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
-    
-
 </resources>
-
-

@@ -27,7 +27,9 @@ fun MilestoneScreen(vm: MilestoneViewModel = viewModel()) {
         Spacer(modifier = Modifier.height(16.dp))
         OutlinedTextField(
             value = spendAmount,
-            onValueChange = { spendAmount = it.filter { ch -> ch.isDigit() } },
+onValueChange = { input ->
+    spendAmount = input.filter { ch -> ch.isDigit() }
+}
             label = { Text(\"Enter coins to spend\") },
             modifier = Modifier.fillMaxWidth()
         )

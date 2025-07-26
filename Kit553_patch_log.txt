@@ -1,0 +1,2 @@
+Kit553: dataBinding + viewBinding enabled in build.gradle.kts
+Backup: C:\Users\leona\VS_Projects\AdForge_Android3\app\build.gradle.kts.bak_553

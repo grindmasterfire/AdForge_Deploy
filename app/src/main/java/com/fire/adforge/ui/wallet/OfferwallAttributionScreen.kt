@@ -11,7 +11,8 @@ import com.fire.adforge.backend.SponsorAttributionLedger
 
 @Composable
 fun OfferwallAttributionScreen(userId: String) {
-    val entries = remember { SponsorAttributionLedger.getAll().filter { it.userId == userId } }
+val allEntries = SponsorAttributionLedger.getAll()
+val entries = remember { allEntries.filter { it.userId == userId } }
 
     Scaffold(
         topBar = {

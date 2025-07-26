@@ -25,7 +25,9 @@ fun PayoutScreen(vm: PayoutViewModel = viewModel()) {
         Spacer(modifier = Modifier.height(16.dp))
         OutlinedTextField(
             value = payoutAmount,
-            onValueChange = { payoutAmount = it.filter { ch -> ch.isDigit() } },
+onValueChange = { input ->
+    payoutAmount = input.filter { ch -> ch.isDigit() }
+}
             label = { Text(\"Enter payout amount\") },
             modifier = Modifier.fillMaxWidth()
         )

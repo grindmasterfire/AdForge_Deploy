@@ -8,7 +8,18 @@ object WinnerDraw {
 
         return when (type) {
             RaffleType.WINNER_TAKES_ALL -> {
-                val pool = entries.flatMap { List(it.ticketCount) { it.userId } }
+val pool = mutableListOf<String>()
+entries.forEach { entry ->
+    repeat(entry.ticketCount) {
+        pool.add(entry.userId)
+    }
+val pool = mutableListOf<String>()
+entries.forEach { entry ->
+    repeat(entry.ticketCount) {
+        pool.add(entry.userId)
+    }
+}
+pool.shuffle()
                 listOf(pool.random())
             }
 

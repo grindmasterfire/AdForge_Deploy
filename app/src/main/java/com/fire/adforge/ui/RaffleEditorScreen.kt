@@ -44,7 +44,9 @@ fun RaffleEditorScreen(navController: NavController, raffleId: String) {
 
         OutlinedTextField(
             value = cost,
-            onValueChange = { cost = it.filter { c -> c.isDigit() } },
+onValueChange = { input ->
+    cost = input.filter { ch -> ch.isDigit() }
+}
             label = { Text("Entry Cost") }
         )
 

@@ -41,7 +41,17 @@ class DailyRaffleViewModel : ViewModel() {
             return
         }
         // Simple random winner selection weighted by tickets
-        val weightedList = entries.flatMap { (user, tickets) -> List(tickets) { user } }
+val weightedList: List<String> = buildList {
+    for ((user, tickets) in entries) {
+        repeat(tickets) {
+            add(user)
+        }
+    }
+}
+    repeat(tickets) {
+        weightedList.add(user)
+    }
+}
         val winner = weightedList.random()
         val prize = 1000 // Placeholder prize amount
         _dailyRaffleWinner.value = winner to prize
